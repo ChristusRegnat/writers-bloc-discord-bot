@@ -525,6 +525,15 @@
           "source": "Body_of_Water_Chapter_One.docx (4,239)",
           "words": 4239,
           "writer": "Mr. Cameron Pilgrim"
+        },
+        "1520126024090783784": {
+          "channel_id": "1514693923103047803",
+          "created_at": "2026-06-26T19:06:59+00:00",
+          "message_id": "1520126024090783784",
+          "reply_message_id": "1520143356045426818",
+          "source": "The_Thingy_Episode_1_Complete.docx (5,992)",
+          "words": 5992,
+          "writer": "Conner Hale"
         }
       },
       "duplicate_messages": {},
@@ -610,7 +619,8 @@
         "1517631414776889415": true,
         "1517647584355815555": true,
         "1519818896599941202": true,
-        "1520081764402462851": true
+        "1520081764402462851": true,
+        "1520126024090783784": true
       },
       "settings": {
         "default_weekly_goal": 1500
@@ -626,7 +636,7 @@
           "goal_name_match": "Mariam and Chief",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:07+00:00",
+          "goal_updated_at": "2026-06-26T19:07:03+00:00",
           "submissions": [
             {
               "channel_id": "1514693995412852886",
@@ -1361,7 +1371,7 @@
           "goal_name_match": "Conner Hale",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:50:55+00:00",
+          "goal_updated_at": "2026-06-26T19:06:58+00:00",
           "submissions": [
             {
               "channel_id": "1514693923103047803",
@@ -1400,6 +1410,21 @@
               "source": "The_Thingy_Episode_1.docx (3,345)",
               "week": "2026-W24",
               "words": 3345
+            },
+            {
+              "channel_id": "1514693923103047803",
+              "created_at": "2026-06-26T19:06:58+00:00",
+              "discord_created_at": "2026-06-26T17:58:06.719000+00:00",
+              "file_hashes": [
+                "018df90ec4e20f9cda24ffc369e3375632a21d822d3b803cafb910829cfc31d4"
+              ],
+              "message_id": "1520126024090783784",
+              "reply_message_id": "1520143356045426818",
+              "reply_sent_at": "2026-06-26T19:06:59+00:00",
+              "source": "The_Thingy_Episode_1_Complete.docx (5,992)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W26",
+              "words": 5992
             }
           ],
           "user_id": "1126352859202596925"
@@ -1413,7 +1438,7 @@
           "goal_name_match": "Lola",
           "goal_set_by": null,
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:52+00:00",
+          "goal_updated_at": "2026-06-26T19:07:08+00:00",
           "submissions": [
             {
               "channel_id": "1516155328671125866",
@@ -1446,7 +1471,7 @@
           "goal_name_match": "Isaiah Gibbins",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:03+00:00",
+          "goal_updated_at": "2026-06-26T19:07:01+00:00",
           "submissions": [
             {
               "channel_id": "1514693951330717832",
@@ -1479,7 +1504,7 @@
           "goal_name_match": "Joshua S. Smith",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:04+00:00",
+          "goal_updated_at": "2026-06-26T19:07:02+00:00",
           "submissions": [],
           "user_id": "1320771261952950302"
         },
@@ -1492,7 +1517,7 @@
           "goal_name_match": "Elijah Blythe",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:00+00:00",
+          "goal_updated_at": "2026-06-26T19:07:00+00:00",
           "submissions": [
             {
               "channel_id": "1514693942510223547",
@@ -1607,7 +1632,7 @@
           "goal_name_match": "Lyn Evans",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:07+00:00",
+          "goal_updated_at": "2026-06-26T19:07:03+00:00",
           "submissions": [],
           "user_id": "1512878497683734528"
         },
@@ -1652,7 +1677,7 @@
           "goal_name_match": "Caleb Scott",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:44+00:00",
+          "goal_updated_at": "2026-06-26T19:07:05+00:00",
           "submissions": [
             {
               "channel_id": "1514694018024472628",
@@ -1675,7 +1700,7 @@
           "goal_name_match": "Daniel Demmin",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:50:58+00:00",
+          "goal_updated_at": "2026-06-26T19:07:00+00:00",
           "submissions": [
             {
               "channel_id": "1514693934066962462",
@@ -1727,7 +1752,7 @@
           "goal_name_match": "Lindsey Nichols",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:05+00:00",
+          "goal_updated_at": "2026-06-26T19:07:02+00:00",
           "submissions": [
             {
               "channel_id": "1514693972709085321",
@@ -1779,7 +1804,7 @@
           "goal_name_match": "Cameron Pilgrim",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:42+00:00",
+          "goal_updated_at": "2026-06-26T19:07:04+00:00",
           "submissions": [
             {
               "channel_id": "1514694006679011359",
@@ -1827,7 +1852,7 @@
           "goal_name_match": "Carter Horton",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:51:47+00:00",
+          "goal_updated_at": "2026-06-26T19:07:07+00:00",
           "submissions": [
             {
               "channel_id": "1514832052304740413",

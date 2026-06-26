@@ -12,6 +12,7 @@
           "writer_id": "347521484199034884"
         }
       },
+      "duplicate_messages": {},
       "ignored_messages": {
         "1514856835197177987": {
           "by": "477534686982438914",
@@ -86,12 +87,15 @@
         "1515939750496833586": true,
         "1516267456426020904": true,
         "1516471706183532746": true,
+        "1516950700976902165": true,
         "1516964310532886728": true,
         "1517511308814057545": true,
         "1517611522979791050": true,
         "1517630098235326596": true,
         "1517631414776889415": true,
-        "1517647584355815555": true
+        "1517647584355815555": true,
+        "1519818896599941202": true,
+        "1520081764402462851": true
       },
       "settings": {
         "default_weekly_goal": 1500
@@ -103,9 +107,10 @@
           "dashboard_message_id": "1514842281595895881",
           "display_name": "Mariam (Luna Eclipse) and Chief",
           "goal": 3000,
+          "goal_name_match": "Mariam and Chief",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:35+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:35+00:00",
           "submissions": [
             {
               "channel_id": "1514693995412852886",
@@ -725,6 +730,32 @@
               "source": "Turmoil_Ch._11__Reunion.docx (2,607)",
               "week": "2026-W25",
               "words": 2607
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-26T17:12:35+00:00",
+              "discord_created_at": "2026-06-17T23:40:30.694000+00:00",
+              "file_hashes": [
+                "b480293a8212278fde71007833ea805a38ef858e14c474efae72413b0c3ecae5"
+              ],
+              "message_id": "1516950700976902165",
+              "source": "Turmoil_Ch._12__Rescue.docx (3,992)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W26",
+              "words": 3992
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-26T17:12:35+00:00",
+              "discord_created_at": "2026-06-25T21:37:41.819000+00:00",
+              "file_hashes": [
+                "28d5f2df3ee705f84e0b115f3374871a574aa740a53c5f0c89181037463f7545"
+              ],
+              "message_id": "1519818896599941202",
+              "source": "Turmoil_Ch._13__Jailbreak.docx (3,766)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W26",
+              "words": 3766
             }
           ],
           "user_id": "1082363839934378064"
@@ -735,9 +766,10 @@
           "dashboard_message_id": "1515082154391113811",
           "display_name": "Conner Hale",
           "goal": 2000,
+          "goal_name_match": "Conner Hale",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:34+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:31+00:00",
           "submissions": [
             {
               "channel_id": "1514693923103047803",
@@ -781,10 +813,11 @@
           "cleared_total": 0,
           "dashboard_message_id": "1516155333406359675",
           "display_name": "Lola Diaz",
-          "goal": 1500,
+          "goal": 1000,
+          "goal_name_match": "Lola",
           "goal_set_by": null,
-          "goal_source": "default",
-          "goal_updated_at": null,
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:40+00:00",
           "submissions": [
             {
               "channel_id": "1516155328671125866",
@@ -812,9 +845,10 @@
           "dashboard_message_id": "1514842251161763921",
           "display_name": "Isaiah Gibbins",
           "goal": 100,
+          "goal_name_match": "Isaiah Gibbins",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:32+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:32+00:00",
           "submissions": [
             {
               "channel_id": "1514693951330717832",
@@ -842,9 +876,10 @@
           "dashboard_message_id": "1514842259127013477",
           "display_name": "Joshua S. Smith",
           "goal": 1000,
+          "goal_name_match": "Joshua S. Smith",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:31+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:33+00:00",
           "submissions": [],
           "user_id": "1320771261952950302"
         },
@@ -854,9 +889,10 @@
           "dashboard_message_id": "1514842243167555734",
           "display_name": "Elijah Blythe",
           "goal": 1000,
+          "goal_name_match": "Elijah Blythe",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:32+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:32+00:00",
           "submissions": [
             {
               "channel_id": "1514693942510223547",
@@ -960,9 +996,10 @@
           "dashboard_message_id": "1514842273647427669",
           "display_name": "Lyn Evans",
           "goal": 1000,
+          "goal_name_match": "Lyn Evans",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:33+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:34+00:00",
           "submissions": [],
           "user_id": "1512878497683734528"
         },
@@ -1002,9 +1039,10 @@
           "dashboard_message_id": "1514842207239274497",
           "display_name": "Caleb Scott",
           "goal": 1000,
+          "goal_name_match": "Caleb Scott",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:31+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:37+00:00",
           "submissions": [
             {
               "channel_id": "1514694018024472628",
@@ -1024,9 +1062,10 @@
           "dashboard_message_id": "1514842235768930428",
           "display_name": "Daniel Demmin",
           "goal": 3000,
+          "goal_name_match": "Daniel Demmin",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:31+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:31+00:00",
           "submissions": [
             {
               "channel_id": "1514693934066962462",
@@ -1071,9 +1110,10 @@
           "dashboard_message_id": "1514842266123112449",
           "display_name": "Lindsey Nichols",
           "goal": 2100,
+          "goal_name_match": "Lindsey Nichols",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:33+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:33+00:00",
           "submissions": [
             {
               "channel_id": "1514693972709085321",
@@ -1118,9 +1158,10 @@
           "dashboard_message_id": "1514842288675749975",
           "display_name": "Mr. Cameron Pilgrim",
           "goal": 2500,
+          "goal_name_match": "Cameron Pilgrim",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:33+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:36+00:00",
           "submissions": [
             {
               "channel_id": "1514694006679011359",
@@ -1138,6 +1179,19 @@
               "source": "Body_of_Water.docx (9,043)",
               "week": "2026-W24",
               "words": 9043
+            },
+            {
+              "channel_id": "1514694006679011359",
+              "created_at": "2026-06-26T17:12:37+00:00",
+              "discord_created_at": "2026-06-26T15:02:14.387000+00:00",
+              "file_hashes": [
+                "c92f6de089352bd670fb451befe373e9c4ba42df6f9dc7d82b71283a43abbc6d"
+              ],
+              "message_id": "1520081764402462851",
+              "source": "Body_of_Water_Chapter_One.docx (4,239)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W26",
+              "words": 4239
             }
           ],
           "user_id": "755928598111846471"
@@ -1148,9 +1202,10 @@
           "dashboard_message_id": "1514842213513691272",
           "display_name": "Carter Horton",
           "goal": 2500,
+          "goal_name_match": "Carter Horton",
           "goal_set_by": "477534686982438914",
-          "goal_source": "known_goal_seed",
-          "goal_updated_at": "2026-06-12T19:55:35+00:00",
+          "goal_source": "github_actions_goal_file",
+          "goal_updated_at": "2026-06-26T17:12:39+00:00",
           "submissions": [
             {
               "channel_id": "1514832052304740413",
@@ -1226,5 +1281,5 @@
       }
     }
   },
-  "version": "2026-06-12-v7-emergency-permissions-recount"
+  "version": "2026-06-26-github-actions-scheduled-scanner-v1"
 }

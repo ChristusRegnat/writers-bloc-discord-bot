@@ -1,4 +1,1230 @@
 {
-  "version": "github-actions-scanner-initial",
-  "guilds": {}
+  "guilds": {
+    "1509389175705698436": {
+      "cleared_messages": {
+        "1515063992542957749": {
+          "by": "477534686982438914",
+          "channel_id": null,
+          "created_at": "2026-06-12T18:44:33+00:00",
+          "kind": "cleared",
+          "message_id": "1515063992542957749",
+          "reason": "clear-message",
+          "writer_id": "347521484199034884"
+        }
+      },
+      "ignored_messages": {
+        "1514856835197177987": {
+          "by": "477534686982438914",
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-15T19:06:36+00:00",
+          "kind": "ignored",
+          "message_id": "1514856835197177987",
+          "reason": "not part of 3MM manuscript",
+          "writer_id": "1082363839934378064"
+        },
+        "1515063992542957749": {
+          "by": "477534686982438914",
+          "channel_id": "1514694018024472628",
+          "created_at": "2026-06-12T18:43:56+00:00",
+          "kind": "ignored",
+          "message_id": "1515063992542957749",
+          "reason": "not part of 3MM manuscript",
+          "writer_id": "347521484199034884"
+        }
+      },
+      "pending_named_goals": {},
+      "processed_messages": {
+        "1514695290324779347": true,
+        "1514823819519332372": true,
+        "1514832761717002352": true,
+        "1514837559685943407": true,
+        "1514838992741208114": true,
+        "1514856835197177987": true,
+        "1514865334740586546": true,
+        "1514865378981843086": true,
+        "1514866083948138677": true,
+        "1514866593207947284": true,
+        "1514867124890505347": true,
+        "1514869293169512730": true,
+        "1514869309829025794": true,
+        "1514869386823991516": true,
+        "1514869448735981581": true,
+        "1514869466394005645": true,
+        "1514869481888022651": true,
+        "1514869495058010183": true,
+        "1514872512666931310": true,
+        "1514872524293279867": true,
+        "1514872537920704523": true,
+        "1514872549140467815": true,
+        "1514872561048227844": true,
+        "1514872570611241061": true,
+        "1514872581520490527": true,
+        "1514872592853635074": true,
+        "1514872603528138843": true,
+        "1514872621739802805": true,
+        "1514872644267409429": true,
+        "1514872660109037670": true,
+        "1514872683463053375": true,
+        "1514988819147915284": true,
+        "1514988856922083551": true,
+        "1514988879852077096": true,
+        "1515063992542957749": true,
+        "1515097697135366268": true,
+        "1515103143627849739": true,
+        "1515111634396385391": true,
+        "1515114642014474240": true,
+        "1515115395667857478": true,
+        "1515116497624629290": true,
+        "1515121355417325569": true,
+        "1515124849239134368": true,
+        "1515124871707885788": true,
+        "1515124894600269864": true,
+        "1515209167097303170": true,
+        "1515209805185286184": true,
+        "1515381800124289044": true,
+        "1515568731382612069": true,
+        "1515939750496833586": true,
+        "1516267456426020904": true,
+        "1516471706183532746": true,
+        "1516964310532886728": true,
+        "1517511308814057545": true,
+        "1517611522979791050": true,
+        "1517630098235326596": true,
+        "1517631414776889415": true,
+        "1517647584355815555": true
+      },
+      "settings": {
+        "default_weekly_goal": 1500
+      },
+      "writers": {
+        "1082363839934378064": {
+          "channel_id": "1514693995412852886",
+          "cleared_total": 96091,
+          "dashboard_message_id": "1514842281595895881",
+          "display_name": "Mariam (Luna Eclipse) and Chief",
+          "goal": 3000,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:35+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:05:12+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514865334472020058",
+                  "filename": "Transformation_Ch._1__Family_Secrets.docx",
+                  "sha256": "dcb8924d2e6e9ae2e252fd7d5ea624de6d534ac0d92004048128df56f54b80d7",
+                  "size": 754361,
+                  "words": 3019
+                }
+              ],
+              "message_id": "1514865334740586546",
+              "source": "Transformation_Ch._1__Family_Secrets.docx (3,019)",
+              "week": "2026-W25",
+              "words": 3019
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:05:13+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514865378977779722",
+                  "filename": "Transformatton_Ch._2__The_Interrogation.docx",
+                  "sha256": "7208f19806241ee21828b353f1c972b93b82f8e42ff3d4c2f42bdf2e3e9b4d48",
+                  "size": 751720,
+                  "words": 2201
+                }
+              ],
+              "message_id": "1514865378981843086",
+              "source": "Transformatton_Ch._2__The_Interrogation.docx (2,201)",
+              "week": "2026-W25",
+              "words": 2201
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:05:13+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514866083687960707",
+                  "filename": "Transformation_Ch._3__Spellbounds.docx",
+                  "sha256": "a7331558cdd82aca71e2ee1b7b301da19de28bc9e8933eedca25d9988a4c689c",
+                  "size": 15550,
+                  "words": 3149
+                }
+              ],
+              "message_id": "1514866083948138677",
+              "source": "Transformation_Ch._3__Spellbounds.docx (3,149)",
+              "week": "2026-W25",
+              "words": 3149
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:05:18+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514866592930988153",
+                  "filename": "Transformation_Ch._4__Celebration_of_the_Newest_Member.docx",
+                  "sha256": "92bfd065fe2ef3215476fd5b838f406c1385d3b891da5cddd8e05a7fb79398ab",
+                  "size": 17056,
+                  "words": 3784
+                }
+              ],
+              "message_id": "1514866593207947284",
+              "source": "Transformation_Ch._4__Celebration_of_the_Newest_Member.docx (3,784)",
+              "week": "2026-W25",
+              "words": 3784
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:05:24+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514867124873723992",
+                  "filename": "Transformation_Ch._5__Training_Training_Training.docx",
+                  "sha256": "bb976b2cedc51f7ad681497627b64bd7979c1a7f210fee94566245b79239833a",
+                  "size": 17460,
+                  "words": 3837
+                }
+              ],
+              "message_id": "1514867124890505347",
+              "source": "Transformation_Ch._5__Training_Training_Training.docx (3,837)",
+              "week": "2026-W25",
+              "words": 3837
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:05:30+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514869292657672342",
+                  "filename": "Transformation_Ch._6__Its_my_Birthday.docx",
+                  "sha256": "4ac0e6c23eed20eee50845409f844eaedd1f0b8a55c73eb9e9e2ef2398195f00",
+                  "size": 20665,
+                  "words": 4965
+                }
+              ],
+              "message_id": "1514869293169512730",
+              "source": "Transformation_Ch._6__Its_my_Birthday.docx (4,965)",
+              "week": "2026-W25",
+              "words": 4965
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:05:36+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514869309846065313",
+                  "filename": "Transformation_Ch._7__Does_This_Count_as_a_Mission.docx",
+                  "sha256": "81d43d58c6fa0f4b9601c09f9c72a26e26e8728a054a2b066d0b7fc6f4e69a55",
+                  "size": 17365,
+                  "words": 4110
+                }
+              ],
+              "message_id": "1514869309829025794",
+              "source": "Transformation_Ch._7__Does_This_Count_as_a_Mission.docx (4,110)",
+              "week": "2026-W25",
+              "words": 4110
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:26+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514869386282795078",
+                  "filename": "Transformation_Ch._8__Wishing_You_a_Speedy_Recovery.docx",
+                  "sha256": "697bc16e0573620b57939fac66b4c940fa9f06d19fb6a5c2c916599a12a7cc8f",
+                  "size": 15399,
+                  "words": 2882
+                },
+                {
+                  "attachment_id": "1514869386530525285",
+                  "filename": "Transformation_Ch._9__Tensions_Rise.docx",
+                  "sha256": "c34403a442976fcee4c864a4addf854f707df8eb3f92f324021c0bafcc234d08",
+                  "size": 16708,
+                  "words": 3401
+                }
+              ],
+              "message_id": "1514869386823991516",
+              "source": "Transformation_Ch._8__Wishing_You_a_Speedy_Recovery.docx (2,882), Transformation_Ch._9__Tensions_Rise.docx (3,401)",
+              "week": "2026-W25",
+              "words": 6283
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:27+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514869448446836796",
+                  "filename": "Transformation_Ch._10__Making_Amends.docx",
+                  "sha256": "fbeb7c05bbb65f831a193e2899794c8100cdcaecffba695f9be0ae93b67cd28a",
+                  "size": 14726,
+                  "words": 2711
+                }
+              ],
+              "message_id": "1514869448735981581",
+              "source": "Transformation_Ch._10__Making_Amends.docx (2,711)",
+              "week": "2026-W25",
+              "words": 2711
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:28+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514869466113114112",
+                  "filename": "Transformation_Ch._11__Lies_and_Deception.docx",
+                  "sha256": "c653284fcddffc95daa9841433bcec692c6dff7342414785fd419aa5e4ab586a",
+                  "size": 15501,
+                  "words": 3065
+                }
+              ],
+              "message_id": "1514869466394005645",
+              "source": "Transformation_Ch._11__Lies_and_Deception.docx (3,065)",
+              "week": "2026-W25",
+              "words": 3065
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:29+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514869481686564914",
+                  "filename": "Transformation_Ch._12__To_Tell_or_Not_to_Tell.docx",
+                  "sha256": "7bb85f89280643f89cc8b9156c1ea79f5b1dd117095da7f37640c2e749318faa",
+                  "size": 18734,
+                  "words": 4370
+                }
+              ],
+              "message_id": "1514869481888022651",
+              "source": "Transformation_Ch._12__To_Tell_or_Not_to_Tell.docx (4,370)",
+              "week": "2026-W25",
+              "words": 4370
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:34+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514869494873325578",
+                  "filename": "Transformaion_Ch._13__Snitches_Get_Stitches.docx",
+                  "sha256": "6047f4693ebd1465278eecd3c44f9b951ff4cd723aa47e15eacd30a446e22fa1",
+                  "size": 17155,
+                  "words": 3630
+                }
+              ],
+              "message_id": "1514869495058010183",
+              "source": "Transformaion_Ch._13__Snitches_Get_Stitches.docx (3,630)",
+              "week": "2026-W25",
+              "words": 3630
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:45+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872512297566360",
+                  "filename": "Transformation_Ch._14__Swear_on_the_Souls_in_the_Sky.docx",
+                  "sha256": "bbdb22833ac297563a6a5bb69b4b92ef570f3aac120d1783f5c057a9e82d83c8",
+                  "size": 18713,
+                  "words": 4294
+                }
+              ],
+              "message_id": "1514872512666931310",
+              "source": "Transformation_Ch._14__Swear_on_the_Souls_in_the_Sky.docx (4,294)",
+              "week": "2026-W25",
+              "words": 4294
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:51+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872524012523690",
+                  "filename": "Transformation_Ch._15__The_Mole_Hunt.docx",
+                  "sha256": "4276701b4ed1b5f90f294b09ec36c136d5f371dac43a420371aa2d5ed5138753",
+                  "size": 17771,
+                  "words": 3901
+                }
+              ],
+              "message_id": "1514872524293279867",
+              "source": "Transformation_Ch._15__The_Mole_Hunt.docx (3,901)",
+              "week": "2026-W25",
+              "words": 3901
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:06:57+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872537623035987",
+                  "filename": "Transformation_Ch._16__Betrayal_and_Tale.docx",
+                  "sha256": "82028394199662fbf067ffaca44371307990b8f6c770fb43f533b7a3ff3b5814",
+                  "size": 19283,
+                  "words": 4608
+                }
+              ],
+              "message_id": "1514872537920704523",
+              "source": "Transformation_Ch._16__Betrayal_and_Tale.docx (4,608)",
+              "week": "2026-W25",
+              "words": 4608
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:03+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872548813180958",
+                  "filename": "Transformation_Ch._17__Charters_and_Curses.docx",
+                  "sha256": "87e9873e5070f5f7e2ca8e1743a2aaf67edb2de10c0efee94a5f307329b27ddc",
+                  "size": 17902,
+                  "words": 3925
+                }
+              ],
+              "message_id": "1514872549140467815",
+              "source": "Transformation_Ch._17__Charters_and_Curses.docx (3,925)",
+              "week": "2026-W25",
+              "words": 3925
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:09+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872560788045854",
+                  "filename": "Transformation_Ch._18__The_Soul_Snare.docx",
+                  "sha256": "1b7e3ca40ce14715b36bf611a951d41b8c60cd4833f3698a5667118ca5b39a3a",
+                  "size": 16239,
+                  "words": 3616
+                }
+              ],
+              "message_id": "1514872561048227844",
+              "source": "Transformation_Ch._18__The_Soul_Snare.docx (3,616)",
+              "week": "2026-W25",
+              "words": 3616
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:15+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872570669957191",
+                  "filename": "Transformation_Ch._19__The_Games.docx",
+                  "sha256": "0ee245278cf75e974de11b9dfa5d8d96c5fe51610b950c01b995ae3215316b2e",
+                  "size": 14698,
+                  "words": 3165
+                }
+              ],
+              "message_id": "1514872570611241061",
+              "source": "Transformation_Ch._19__The_Games.docx (3,165)",
+              "week": "2026-W25",
+              "words": 3165
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:21+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872581033824336",
+                  "filename": "Transformation_Ch._20__Into_the_Dark.docx",
+                  "sha256": "e93126e4e94af079969adbcca5bbdd4e92a5d1a7f7aece000efa380511516e11",
+                  "size": 16554,
+                  "words": 3539
+                }
+              ],
+              "message_id": "1514872581520490527",
+              "source": "Transformation_Ch._20__Into_the_Dark.docx (3,539)",
+              "week": "2026-W25",
+              "words": 3539
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:27+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872592748646462",
+                  "filename": "Transformation_Ch._21__Perception_is_a_Myth.docx",
+                  "sha256": "2619e2881ad156da2ae0d2a28c675a02396db3fdd7307b1cf10d50cecf9b8897",
+                  "size": 16279,
+                  "words": 3362
+                }
+              ],
+              "message_id": "1514872592853635074",
+              "source": "Transformation_Ch._21__Perception_is_a_Myth.docx (3,362)",
+              "week": "2026-W25",
+              "words": 3362
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:33+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872603226017963",
+                  "filename": "Transformation_Ch._22__The_Plot.docx",
+                  "sha256": "23c4ddfe379d5db8b7beff9fbb53a808b39145266b41da02977d6df989478fc8",
+                  "size": 16204,
+                  "words": 3372
+                }
+              ],
+              "message_id": "1514872603528138843",
+              "source": "Transformation_Ch._22__The_Plot.docx (3,372)",
+              "week": "2026-W25",
+              "words": 3372
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:39+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872621315919882",
+                  "filename": "Transformation_Ch._23__Battle_Ensues.docx",
+                  "sha256": "5ea90500b1a04db37438bae48d8d9f3822cba572231e656d9a2d9c7994370925",
+                  "size": 18483,
+                  "words": 4353
+                }
+              ],
+              "message_id": "1514872621739802805",
+              "source": "Transformation_Ch._23__Battle_Ensues.docx (4,353)",
+              "week": "2026-W25",
+              "words": 4353
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:45+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872644363747408",
+                  "filename": "Transformation_Ch._24__War_Cry.docx",
+                  "sha256": "b35b7374fac8e92541ac2211dc073aa8a0ca729b7c87adf516602898e30bce7b",
+                  "size": 16441,
+                  "words": 3602
+                }
+              ],
+              "message_id": "1514872644267409429",
+              "source": "Transformation_Ch._24__War_Cry.docx (3,602)",
+              "week": "2026-W25",
+              "words": 3602
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:51+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872659618435243",
+                  "filename": "Transformation_Ch._25__Recompense.docx",
+                  "sha256": "b46838645f84646ebd349a006b963a0128a7848ad8d13de7119f0bd6cc69da3d",
+                  "size": 15230,
+                  "words": 3017
+                }
+              ],
+              "message_id": "1514872660109037670",
+              "source": "Transformation_Ch._25__Recompense.docx (3,017)",
+              "week": "2026-W25",
+              "words": 3017
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:07:57+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514872683458986015",
+                  "filename": "Transformation__Glossary.docx",
+                  "sha256": "4a95b74bc4b1efabd2393371ab1394fe1dd6844f8be4091faf14b3239f6f78df",
+                  "size": 8746,
+                  "words": 489
+                }
+              ],
+              "message_id": "1514872683463053375",
+              "source": "Transformation__Glossary.docx (489)",
+              "week": "2026-W25",
+              "words": 489
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:03+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514988818766495744",
+                  "filename": "Turmoil_Ch._1__Refuge.docx",
+                  "sha256": "aa9a645aaa349ad196c25c577f2c59edc5ede36e23e2ed19e9582b24f203e70a",
+                  "size": 752685,
+                  "words": 2560
+                }
+              ],
+              "message_id": "1514988819147915284",
+              "source": "Turmoil_Ch._1__Refuge.docx (2,560)",
+              "week": "2026-W25",
+              "words": 2560
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:09+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514988856531882124",
+                  "filename": "Turmoil_Ch._2__Danger.docx",
+                  "sha256": "6eaa64cb10fa45fa878f4da0d36d9031cd89c61683475c762039e4a534cc5645",
+                  "size": 753316,
+                  "words": 2664
+                }
+              ],
+              "message_id": "1514988856922083551",
+              "source": "Turmoil_Ch._2__Danger.docx (2,664)",
+              "week": "2026-W25",
+              "words": 2664
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:15+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514988879390965850",
+                  "filename": "Turmoil_Ch._3__Refusal.docx",
+                  "sha256": "d9b30be717c305ab66345df5c91e8317370f05832cd638833b0ab34fd04056ad",
+                  "size": 754449,
+                  "words": 3172
+                }
+              ],
+              "message_id": "1514988879852077096",
+              "source": "Turmoil_Ch._3__Refusal.docx (3,172)",
+              "week": "2026-W25",
+              "words": 3172
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:21+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515115395374383174",
+                  "filename": "Turmoil_Ch._4__Disappearance.docx",
+                  "sha256": "f43b0e622f207aa4fa6433688f20992c970f4b56fe59103e126c06660bc72a34",
+                  "size": 753788,
+                  "words": 2854
+                }
+              ],
+              "message_id": "1515115395667857478",
+              "source": "Turmoil_Ch._4__Disappearance.docx (2,854)",
+              "week": "2026-W25",
+              "words": 2854
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:27+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515116497381490688",
+                  "filename": "Turmoil_Ch._5__Plot.docx",
+                  "sha256": "6f3952f45d106d57d2d510cd1ccd1b089c8255e51eac8507bdbf3d4c32c5e844",
+                  "size": 751293,
+                  "words": 2097
+                }
+              ],
+              "message_id": "1515116497624629290",
+              "source": "Turmoil_Ch._5__Plot.docx (2,097)",
+              "week": "2026-W25",
+              "words": 2097
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:33+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515124848957853747",
+                  "filename": "Turmoil_Ch._6__Confrontation.docx",
+                  "sha256": "00775a26d9955349027751e478b157f776dd30fd0dffb3dffd3831f50c0c85ec",
+                  "size": 11476,
+                  "words": 1642
+                }
+              ],
+              "message_id": "1515124849239134368",
+              "source": "Turmoil_Ch._6__Confrontation.docx (1,642)",
+              "week": "2026-W25",
+              "words": 1642
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:39+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515124868314562590",
+                  "filename": "Turmoil_Ch._7__Visitation.docx",
+                  "sha256": "22d89bec7573e75462c13bb58d1df5d5c7657d091a2bbcdb55940ad5843a1d83",
+                  "size": 16920,
+                  "words": 3768
+                }
+              ],
+              "message_id": "1515124871707885788",
+              "source": "Turmoil_Ch._7__Visitation.docx (3,768)",
+              "week": "2026-W25",
+              "words": 3768
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:45+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515124894311125193",
+                  "filename": "Turmoil_Ch._8__Ambush.docx",
+                  "sha256": "5402c561b672d3e708c5f468480f36958b1951e8fdb07ae7a31ea7222be5fb12",
+                  "size": 14285,
+                  "words": 3023
+                }
+              ],
+              "message_id": "1515124894600269864",
+              "source": "Turmoil_Ch._8__Ambush.docx (3,023)",
+              "week": "2026-W25",
+              "words": 3023
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:51+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515381799839207524",
+                  "filename": "Turmoil_Ch._9__Homecoming.docx",
+                  "sha256": "0f5ad991273085dc748197a1ff6a9a9717a0a53db5b4269eabb8f97feace472a",
+                  "size": 13252,
+                  "words": 2298
+                }
+              ],
+              "message_id": "1515381800124289044",
+              "source": "Turmoil_Ch._9__Homecoming.docx (2,298)",
+              "week": "2026-W25",
+              "words": 2298
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:08:57+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515568731131215882",
+                  "filename": "Turmoil_Ch._10__Loyalties.docx",
+                  "sha256": "41c9ebb8bd2f8386f6bec2ded9a5f8707b685abc8dac097cb038f5b248b19d31",
+                  "size": 8887,
+                  "words": 722
+                }
+              ],
+              "message_id": "1515568731382612069",
+              "source": "Turmoil_Ch._10__Loyalties.docx (722)",
+              "week": "2026-W25",
+              "words": 722
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-06-15T19:09:03+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515939750186582177",
+                  "filename": "Turmoil_Ch._11__Reunion.docx",
+                  "sha256": "5f209e6e122e0997be5076ffa726a8ac3d5f8ec681771ed118c47e6a0de97f0f",
+                  "size": 13373,
+                  "words": 2607
+                }
+              ],
+              "message_id": "1515939750496833586",
+              "source": "Turmoil_Ch._11__Reunion.docx (2,607)",
+              "week": "2026-W25",
+              "words": 2607
+            }
+          ],
+          "user_id": "1082363839934378064"
+        },
+        "1126352859202596925": {
+          "channel_id": "1514693923103047803",
+          "cleared_total": 0,
+          "dashboard_message_id": "1515082154391113811",
+          "display_name": "Conner Hale",
+          "goal": 2000,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:34+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514693923103047803",
+              "created_at": "2026-06-12T04:02:33+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514823818852700221",
+                  "filename": "upload_test.docx",
+                  "sha256": "ceb543f4a4a3e302052fe992963de633669f939b34ac4fe1e96d2a56f10a4a5b",
+                  "size": 2390087,
+                  "words": 3581
+                }
+              ],
+              "message_id": "1514823819519332372",
+              "source": "upload_test.docx (3,581)",
+              "week": "2026-W24",
+              "words": 3581
+            },
+            {
+              "channel_id": "1514693923103047803",
+              "created_at": "2026-06-12T22:31:24+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515121355282976838",
+                  "filename": "The_Thingy_Episode_1.docx",
+                  "sha256": "ceed92e4cd2d9b9a566c768b25ccd857a86886100c450c550a0bd7f053aad7b8",
+                  "size": 2387807,
+                  "words": 3345
+                }
+              ],
+              "message_id": "1515121355417325569",
+              "source": "The_Thingy_Episode_1.docx (3,345)",
+              "week": "2026-W24",
+              "words": 3345
+            }
+          ],
+          "user_id": "1126352859202596925"
+        },
+        "1135336903026151464": {
+          "channel_id": "1516155328671125866",
+          "cleared_total": 0,
+          "dashboard_message_id": "1516155333406359675",
+          "display_name": "Lola Diaz",
+          "goal": 1500,
+          "goal_set_by": null,
+          "goal_source": "default",
+          "goal_updated_at": null,
+          "submissions": [
+            {
+              "channel_id": "1516155328671125866",
+              "created_at": "2026-06-19T19:26:06+00:00",
+              "files": [
+                {
+                  "attachment_id": "1516267456144998510",
+                  "filename": "Lolas_Novel.docx",
+                  "sha256": "0b616fb24da0bdb3402e0e903808d12acf2cbec5a06f10814e19420557461d01",
+                  "size": 13847,
+                  "words": 2473
+                }
+              ],
+              "message_id": "1516267456426020904",
+              "source": "Lolas_Novel.docx (2,473)",
+              "week": "2026-W25",
+              "words": 2473
+            }
+          ],
+          "user_id": "1135336903026151464"
+        },
+        "1295722751541252194": {
+          "channel_id": "1514693951330717832",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842251161763921",
+          "display_name": "Isaiah Gibbins",
+          "goal": 100,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:32+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514693951330717832",
+              "created_at": "2026-06-19T19:26:03+00:00",
+              "files": [
+                {
+                  "attachment_id": "1517511308629639208",
+                  "filename": "Discussion.docx",
+                  "sha256": "3d8a1a7fc4b1bd805dec7acfb011ce211bd24e2982ca422a10024e16d7621026",
+                  "size": 14071,
+                  "words": 143
+                }
+              ],
+              "message_id": "1517511308814057545",
+              "source": "Discussion.docx (143)",
+              "week": "2026-W25",
+              "words": 143
+            }
+          ],
+          "user_id": "1295722751541252194"
+        },
+        "1320771261952950302": {
+          "channel_id": "1514693962777100369",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842259127013477",
+          "display_name": "Joshua S. Smith",
+          "goal": 1000,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:31+00:00",
+          "submissions": [],
+          "user_id": "1320771261952950302"
+        },
+        "1373857887205720187": {
+          "channel_id": "1514693942510223547",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842243167555734",
+          "display_name": "Elijah Blythe",
+          "goal": 1000,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:32+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514693942510223547",
+              "created_at": "2026-06-12T21:53:01+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515111634094522509",
+                  "filename": "Sei_Colpi_-_Ch._2_-_Letter_Home.docx",
+                  "sha256": "404ee6e8a1e83f7f4e21ce964b44c390681a674e5222e87a48acbf43bf3dfb61",
+                  "size": 11144,
+                  "words": 1137
+                }
+              ],
+              "message_id": "1515111634396385391",
+              "source": "Sei_Colpi_-_Ch._2_-_Letter_Home.docx (1,137)",
+              "week": "2026-W24",
+              "words": 1137
+            },
+            {
+              "channel_id": "1514693942510223547",
+              "created_at": "2026-06-16T15:57:09+00:00",
+              "files": [
+                {
+                  "attachment_id": "1516471705894391948",
+                  "filename": "Sei_Colpi_-_Chapter_2_cont.docx",
+                  "sha256": "e26960abecc171346fbd536833a50501edf0540ff150fd0c7dbc8b999b2090d0",
+                  "size": 10014,
+                  "words": 751
+                }
+              ],
+              "message_id": "1516471706183532746",
+              "source": "Sei_Colpi_-_Chapter_2_cont.docx (751)",
+              "week": "2026-W25",
+              "words": 751
+            },
+            {
+              "channel_id": "1514693942510223547",
+              "created_at": "2026-06-19T22:01:43+00:00",
+              "files": [
+                {
+                  "attachment_id": "1517631414479229100",
+                  "filename": "Sei_Colpi_-_Ch._3_Pt._1.docx",
+                  "sha256": "571e993aa59c57ed369d2e8c65e78cbe760d8d53bee49748b1656df28d75b969",
+                  "size": 9536,
+                  "words": 659
+                }
+              ],
+              "message_id": "1517631414776889415",
+              "source": "Sei_Colpi_-_Ch._3_Pt._1.docx (659)",
+              "week": "2026-W25",
+              "words": 659
+            }
+          ],
+          "user_id": "1373857887205720187"
+        },
+        "1462125374434447594": {
+          "channel_id": "1514694027197546768",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842296313446430",
+          "display_name": "Thad Brummel",
+          "goal": 1500,
+          "goal_set_by": null,
+          "goal_source": "default",
+          "goal_updated_at": null,
+          "submissions": [],
+          "user_id": "1462125374434447594"
+        },
+        "1462973668320743488": {
+          "channel_id": "1515081909720318093",
+          "cleared_total": 0,
+          "dashboard_message_id": "1515081911687712910",
+          "display_name": "Ethan Smallwood",
+          "goal": 5500,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "admin_command",
+          "goal_updated_at": "2026-06-12T22:06:27+00:00",
+          "submissions": [
+            {
+              "channel_id": "1515081909720318093",
+              "created_at": "2026-06-12T22:04:40+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515114641703960596",
+                  "filename": "The_Islanders.docx",
+                  "sha256": "7cd731cfca35085d33cfb70ea7a1d6487b03b915fbb6f3194949ec55e3146c66",
+                  "size": 233884,
+                  "words": 8567
+                }
+              ],
+              "message_id": "1515114642014474240",
+              "source": "The_Islanders.docx (8,567)",
+              "week": "2026-W24",
+              "words": 8567
+            }
+          ],
+          "user_id": "1462973668320743488"
+        },
+        "1512878497683734528": {
+          "channel_id": "1514693984218513568",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842273647427669",
+          "display_name": "Lyn Evans",
+          "goal": 1000,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:33+00:00",
+          "submissions": [],
+          "user_id": "1512878497683734528"
+        },
+        "1514715199096230059": {
+          "channel_id": "1514722343950221533",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842221344460921",
+          "display_name": "Ciela Vinson",
+          "goal": 1500,
+          "goal_set_by": null,
+          "goal_source": "default",
+          "goal_updated_at": null,
+          "submissions": [
+            {
+              "channel_id": "1514722343950221533",
+              "created_at": "2026-06-19T19:25:58+00:00",
+              "files": [
+                {
+                  "attachment_id": "1516964310272708629",
+                  "filename": "Miss_Missy_-_Screenplay_-_Final_Draft_For_Writers_Bloc.docx",
+                  "sha256": "ec6b7ccd88d6997f22a2eff396096ac733093c7395a8ec5ba68d0db43d4436db",
+                  "size": 102325,
+                  "words": 17460
+                }
+              ],
+              "message_id": "1516964310532886728",
+              "source": "Miss_Missy_-_Screenplay_-_Final_Draft_For_Writers_Bloc.docx (17,460)",
+              "week": "2026-W25",
+              "words": 17460
+            }
+          ],
+          "user_id": "1514715199096230059"
+        },
+        "347521484199034884": {
+          "channel_id": "1514694018024472628",
+          "cleared_total": 1523,
+          "dashboard_message_id": "1514842207239274497",
+          "display_name": "Caleb Scott",
+          "goal": 1000,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:31+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514694018024472628",
+              "created_at": "2026-06-12T18:36:22+00:00",
+              "files": [],
+              "message_id": null,
+              "source": "manual count",
+              "week": "2026-W24",
+              "words": 1500
+            }
+          ],
+          "user_id": "347521484199034884"
+        },
+        "477534686982438914": {
+          "channel_id": "1514693934066962462",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842235768930428",
+          "display_name": "Daniel Demmin",
+          "goal": 3000,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:31+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514693934066962462",
+              "created_at": "2026-06-12T04:02:35+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514695289900896306",
+                  "filename": "The_Wall-Father.docx",
+                  "sha256": "de770ca57331f39d1b7c706c1a419298ea6443fd3c3552dc4ce3fb4993a0f2b7",
+                  "size": 17644,
+                  "words": 3989
+                }
+              ],
+              "message_id": "1514695290324779347",
+              "source": "The_Wall-Father.docx (3,989)",
+              "week": "2026-W24",
+              "words": 3989
+            },
+            {
+              "channel_id": "1514693934066962462",
+              "created_at": "2026-06-19T19:26:23+00:00",
+              "files": [
+                {
+                  "attachment_id": "1517611522728267906",
+                  "filename": "King_In_Silver_Thieves_and_Stones.docx",
+                  "sha256": "16a5e3be22c3de8bb3f178466785353bb302f07bec19e46a4612d051e8294e50",
+                  "size": 14585,
+                  "words": 2556
+                }
+              ],
+              "message_id": "1517611522979791050",
+              "source": "King_In_Silver_Thieves_and_Stones.docx (2,556)",
+              "week": "2026-W25",
+              "words": 2556
+            }
+          ],
+          "user_id": "477534686982438914"
+        },
+        "617720137834823741": {
+          "channel_id": "1514693972709085321",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842266123112449",
+          "display_name": "Lindsey Nichols",
+          "goal": 2100,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:33+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514693972709085321",
+              "created_at": "2026-06-12T20:57:20+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515097697185693857",
+                  "filename": "Nichols_Painting_Story.docx",
+                  "sha256": "f57a4b75e8c6b0b87afaa9e38bb59a1b266a0753583d2579b8e354e1c552c182",
+                  "size": 20923,
+                  "words": 2745
+                }
+              ],
+              "message_id": "1515097697135366268",
+              "source": "Nichols_Painting_Story.docx (2,745)",
+              "week": "2026-W24",
+              "words": 2745
+            },
+            {
+              "channel_id": "1514693972709085321",
+              "created_at": "2026-06-19T22:01:51+00:00",
+              "files": [
+                {
+                  "attachment_id": "1517647583751700611",
+                  "filename": "Week_Three_Writing.docx",
+                  "sha256": "9787679d6351481f03b75f1394cd476d3968c0511ec6b48eebb293f206916583",
+                  "size": 18950,
+                  "words": 1731
+                }
+              ],
+              "message_id": "1517647584355815555",
+              "source": "Week_Three_Writing.docx (1,731)",
+              "week": "2026-W25",
+              "words": 1731
+            }
+          ],
+          "user_id": "617720137834823741"
+        },
+        "755928598111846471": {
+          "channel_id": "1514694006679011359",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842288675749975",
+          "display_name": "Mr. Cameron Pilgrim",
+          "goal": 2500,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:33+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514694006679011359",
+              "created_at": "2026-06-12T21:18:59+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515103143728382013",
+                  "filename": "Body_of_Water.docx",
+                  "sha256": "b5761a2851b1a0141e37e098903b27804211bb9516ddfaea566b19206baa52c9",
+                  "size": 29602,
+                  "words": 9043
+                }
+              ],
+              "message_id": "1515103143627849739",
+              "source": "Body_of_Water.docx (9,043)",
+              "week": "2026-W24",
+              "words": 9043
+            }
+          ],
+          "user_id": "755928598111846471"
+        },
+        "771472460922093618": {
+          "channel_id": "1514832052304740413",
+          "cleared_total": 0,
+          "dashboard_message_id": "1514842213513691272",
+          "display_name": "Carter Horton",
+          "goal": 2500,
+          "goal_set_by": "477534686982438914",
+          "goal_source": "known_goal_seed",
+          "goal_updated_at": "2026-06-12T19:55:35+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514832052304740413",
+              "created_at": "2026-06-12T04:02:30+00:00",
+              "files": [
+                {
+                  "attachment_id": "1514838992296743023",
+                  "filename": "Revenant_-_The_city_that_refuses_to_die.docx",
+                  "sha256": "cec68b7911d502001d819caaf2dd0d76c87d6110f0f26021c68f264cb278df4d",
+                  "size": 28686,
+                  "words": 3847
+                }
+              ],
+              "message_id": "1514838992741208114",
+              "source": "Revenant_-_The_city_that_refuses_to_die.docx (3,847)",
+              "week": "2026-W24",
+              "words": 3847
+            },
+            {
+              "channel_id": "1514832052304740413",
+              "created_at": "2026-06-15T19:00:11+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515209166744977480",
+                  "filename": "Revenant_ch.1.docx",
+                  "sha256": "655078700dade7201c5788a0bdbb594fa70d4643c63d6e97f1769d6db022cb28",
+                  "size": 12149,
+                  "words": 2426
+                }
+              ],
+              "message_id": "1515209167097303170",
+              "source": "Revenant_ch.1.docx (2,426)",
+              "week": "2026-W25",
+              "words": 2426
+            },
+            {
+              "channel_id": "1514832052304740413",
+              "created_at": "2026-06-15T19:00:11+00:00",
+              "files": [
+                {
+                  "attachment_id": "1515209804132651110",
+                  "filename": "Revenant_ch2.docx",
+                  "sha256": "0fbf6892d31abfe9b36da6707f663325a3cd5c6d1141a1e7262ccad80e314185",
+                  "size": 11374,
+                  "words": 2307
+                }
+              ],
+              "message_id": "1515209805185286184",
+              "source": "Revenant_ch2.docx (2,307)",
+              "week": "2026-W25",
+              "words": 2307
+            },
+            {
+              "channel_id": "1514832052304740413",
+              "created_at": "2026-06-19T22:01:38+00:00",
+              "files": [
+                {
+                  "attachment_id": "1517630097820094464",
+                  "filename": "Chapter_3.docx",
+                  "sha256": "dc65c73c56fce36b25a1ae1677fc5d43f417bc77671b09477445ffe0d059c732",
+                  "size": 20967,
+                  "words": 2524
+                }
+              ],
+              "message_id": "1517630098235326596",
+              "source": "Chapter_3.docx (2,524)",
+              "week": "2026-W25",
+              "words": 2524
+            }
+          ],
+          "user_id": "771472460922093618"
+        }
+      }
+    }
+  },
+  "version": "2026-06-12-v7-emergency-permissions-recount"
 }

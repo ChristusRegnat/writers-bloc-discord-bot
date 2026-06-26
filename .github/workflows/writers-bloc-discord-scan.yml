@@ -15,6 +15,7 @@ on:
         type: choice
         options:
           - scan-all
+          - reply-missing
           - recount-writer
           - ignore-doc
           - clear-message
@@ -58,6 +59,7 @@ env:
   STATE_FILE: writers_bloc_3mm_state.json
   GOALS_FILE: writer_weekly_goals.json
   DISCORD_CATEGORY_NAME: 3MM Writer Manuscripts
+  SEND_REPLIES: "true"
 
 jobs:
   scan-discord:

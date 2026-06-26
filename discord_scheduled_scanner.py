@@ -39,7 +39,7 @@ import requests
 from word_counter import count_words, count_words_from_file_bytes, is_supported_filename
 
 API_BASE = "https://discord.com/api/v10"
-BOT_VERSION = "2026-06-26-github-actions-scheduled-scanner-v1"
+BOT_VERSION = "2026-06-26-github-actions-scheduled-scanner-v2-replies"
 DEFAULT_CATEGORY_NAME = "3MM Writer Manuscripts"
 DEFAULT_WEEKLY_GOAL = 1500
 MIN_PASTED_WORDS_TO_COUNT = 50
@@ -52,6 +52,7 @@ CATEGORY_NAME = os.environ.get("DISCORD_CATEGORY_NAME", DEFAULT_CATEGORY_NAME).s
 STATE_FILE = Path(os.environ.get("STATE_FILE", "writers_bloc_3mm_state.json"))
 GOALS_FILE = Path(os.environ.get("GOALS_FILE", "writer_weekly_goals.json"))
 DRY_RUN = os.environ.get("DRY_RUN", "false").strip().lower() in {"1", "true", "yes"}
+SEND_REPLIES = os.environ.get("SEND_REPLIES", "true").strip().lower() not in {"0", "false", "no"}
 
 SESSION = requests.Session()
 REPORT_LINES: List[str] = []
@@ -127,6 +128,8 @@ def guild_state(state: dict) -> dict:
     gs.setdefault("ignored_messages", {})
     gs.setdefault("cleared_messages", {})
     gs.setdefault("duplicate_messages", {})
+    gs.setdefault("count_replies", {})
+    gs.setdefault("skipped_replies", {})
     gs.setdefault("settings", {"default_weekly_goal": DEFAULT_WEEKLY_GOAL})
     return gs
 
@@ -231,6 +234,27 @@ def send_message(channel_id: str, content: str) -> dict:
         log(f"DRY_RUN: would send message to channel {channel_id}: {content[:80]}")
         return {"id": "dry-run-message"}
     return request_json("POST", f"/channels/{channel_id}/messages", json={"content": content[:1900]})
+
+
+def send_reply_message(channel_id: str, original_message_id: str, content: str) -> dict:
+    """Create a Discord reply attached to the writer's original upload message."""
+    if not SEND_REPLIES:
+        log(f"SEND_REPLIES=false: not replying to message {original_message_id} in channel {channel_id}")
+        return {"id": "replies-disabled"}
+    payload = {
+        "content": content[:1900],
+        "message_reference": {
+            "message_id": str(original_message_id),
+            "channel_id": str(channel_id),
+            "guild_id": str(GUILD_ID),
+            "fail_if_not_exists": False,
+        },
+        "allowed_mentions": {"parse": ["users"]},
+    }
+    if DRY_RUN:
+        log(f"DRY_RUN: would reply to message {original_message_id} in channel {channel_id}: {content[:120]}")
+        return {"id": "dry-run-reply"}
+    return request_json("POST", f"/channels/{channel_id}/messages", json=payload)
 
 
 def edit_message(channel_id: str, message_id: str, content: str) -> None:
@@ -388,6 +412,99 @@ def submission_already_exists(ws: dict, message_id: str) -> bool:
     return any(str(s.get("message_id")) == str(message_id) for s in ws.get("submissions", []))
 
 
+def find_submission_by_message(ws: dict, message_id: str) -> Optional[dict]:
+    for submission in ws.get("submissions", []):
+        if str(submission.get("message_id")) == str(message_id):
+            return submission
+    return None
+
+
+def writer_mention(ws: dict) -> str:
+    user_id = str(ws.get("user_id") or "")
+    if user_id.isdigit():
+        return f"<@{user_id}>"
+    display_name = str(ws.get("display_name") or "the writer")
+    return f"**{display_name}**"
+
+
+def count_reply_text(ws: dict, submission: dict) -> str:
+    cumulative, weekly, _last = totals_for_writer(ws)
+    goal = int(ws.get("goal") or DEFAULT_WEEKLY_GOAL)
+    remaining = max(goal - weekly, 0)
+    goal_line = "Weekly goal met." if remaining == 0 else f"{remaining:,} words left toward this week's goal."
+    words = int(submission.get("words", 0))
+    source = submission.get("source") or "message"
+    return (
+        f"Counted **{words:,} words** from **{source}** for {writer_mention(ws)}.\n"
+        f"This week: **{weekly:,} / {goal:,}**. Cumulative: **{cumulative:,}**. {goal_line}"
+    )
+
+
+def duplicate_reply_text(ws: dict, filename: str, duplicate_of_message_id: Optional[str]) -> str:
+    cumulative, weekly, _last = totals_for_writer(ws)
+    goal = int(ws.get("goal") or DEFAULT_WEEKLY_GOAL)
+    duplicate_line = (
+        f" It matches message `{duplicate_of_message_id}`."
+        if duplicate_of_message_id
+        else ""
+    )
+    return (
+        f"I found **{filename}** for {writer_mention(ws)}, but I did **not** add it to the word count because it looks like a duplicate upload.{duplicate_line}\n"
+        f"Current progress remains: **{weekly:,} / {goal:,}** this week. Cumulative: **{cumulative:,}**."
+    )
+
+
+def ensure_count_reply(state: dict, ws: dict, channel: dict, message: dict, submission: dict, force: bool = False) -> bool:
+    if not SEND_REPLIES:
+        return False
+    gs = guild_state(state)
+    replies = gs.setdefault("count_replies", {})
+    message_id = str(message["id"])
+    existing_reply_id = submission.get("reply_message_id") or replies.get(message_id, {}).get("reply_message_id")
+    if existing_reply_id and not force:
+        return False
+    reply = send_reply_message(str(channel["id"]), message_id, count_reply_text(ws, submission))
+    reply_id = str(reply.get("id", ""))
+    submission["reply_message_id"] = reply_id
+    submission["reply_sent_at"] = utc_now_iso()
+    replies[message_id] = {
+        "message_id": message_id,
+        "channel_id": str(channel["id"]),
+        "reply_message_id": reply_id,
+        "writer": ws.get("display_name"),
+        "words": int(submission.get("words", 0)),
+        "source": submission.get("source"),
+        "created_at": utc_now_iso(),
+    }
+    log(f"Replied to counted upload message {message_id} in #{channel.get('name')}")
+    time.sleep(0.35)
+    return True
+
+
+def ensure_duplicate_reply(state: dict, ws: dict, channel: dict, message: dict, filename: str, duplicate_of_message_id: Optional[str]) -> bool:
+    if not SEND_REPLIES:
+        return False
+    gs = guild_state(state)
+    skipped = gs.setdefault("skipped_replies", {})
+    message_id = str(message["id"])
+    if message_id in skipped:
+        return False
+    reply = send_reply_message(str(channel["id"]), message_id, duplicate_reply_text(ws, filename, duplicate_of_message_id))
+    skipped[message_id] = {
+        "message_id": message_id,
+        "channel_id": str(channel["id"]),
+        "reply_message_id": str(reply.get("id", "")),
+        "writer": ws.get("display_name"),
+        "reason": "duplicate_upload",
+        "filename": filename,
+        "duplicate_of_message_id": duplicate_of_message_id,
+        "created_at": utc_now_iso(),
+    }
+    log(f"Replied to duplicate upload message {message_id} in #{channel.get('name')}")
+    time.sleep(0.35)
+    return True
+
+
 def count_message_for_writer(state: dict, ws: dict, channel: dict, message: dict, force: bool = False) -> Tuple[int, str]:
     gs = guild_state(state)
     message_id = str(message["id"])
@@ -400,13 +517,17 @@ def count_message_for_writer(state: dict, ws: dict, channel: dict, message: dict
         return 0, "ignored"
     if message_id in cleared and not force:
         return 0, "cleared"
-    if submission_already_exists(ws, message_id) and not force:
-        return 0, "already-counted"
+
+    existing_submission = find_submission_by_message(ws, message_id)
+    if existing_submission and not force:
+        sent = ensure_count_reply(state, ws, channel, message, existing_submission, force=False)
+        return 0, "reply-sent" if sent else "already-counted"
 
     total_words = 0
     counted_sources: List[str] = []
     file_hashes: List[str] = []
     errors: List[str] = []
+    duplicate_infos: List[dict] = []
 
     for attachment in message.get("attachments") or []:
         filename = attachment.get("filename") or "attachment"
@@ -424,7 +545,7 @@ def count_message_for_writer(state: dict, ws: dict, channel: dict, message: dict
         file_hash = hashlib.sha256(data).hexdigest()
         seen = file_hash_seen(ws, file_hash, message_id)
         if seen and not force:
-            duplicates[message_id] = {
+            info = {
                 "message_id": message_id,
                 "channel_id": str(channel["id"]),
                 "display_name": ws.get("display_name"),
@@ -433,6 +554,8 @@ def count_message_for_writer(state: dict, ws: dict, channel: dict, message: dict
                 "file_hash": file_hash,
                 "detected_at": utc_now_iso(),
             }
+            duplicates[message_id] = info
+            duplicate_infos.append(info)
             log(f"Duplicate skipped in #{channel.get('name')}: {filename} duplicates message {seen.get('message_id')}")
             continue
         words = count_words_from_file_bytes(filename, data)
@@ -455,6 +578,17 @@ def count_message_for_writer(state: dict, ws: dict, channel: dict, message: dict
 
     if total_words <= 0:
         processed[message_id] = True
+        if duplicate_infos:
+            first = duplicate_infos[0]
+            sent = ensure_duplicate_reply(
+                state,
+                ws,
+                channel,
+                message,
+                str(first.get("filename") or "duplicate upload"),
+                str(first.get("duplicate_of_message_id") or "") or None,
+            )
+            return 0, "duplicate-reply-sent" if sent else "duplicate"
         return 0, "; ".join(errors) if errors else "nothing-countable"
 
     if force:
@@ -462,21 +596,23 @@ def count_message_for_writer(state: dict, ws: dict, channel: dict, message: dict
         cleared.pop(message_id, None)
         ignored.pop(message_id, None)
         duplicates.pop(message_id, None)
+        gs.setdefault("count_replies", {}).pop(message_id, None)
+        gs.setdefault("skipped_replies", {}).pop(message_id, None)
 
-    ws.setdefault("submissions", []).append(
-        {
-            "words": int(total_words),
-            "source": ", ".join(counted_sources) if counted_sources else "message",
-            "channel_id": str(channel["id"]),
-            "message_id": message_id,
-            "week": current_week_key(),
-            "created_at": utc_now_iso(),
-            "discord_created_at": message.get("timestamp"),
-            "file_hashes": file_hashes,
-            "source_type": "github_actions_scan",
-        }
-    )
+    submission = {
+        "words": int(total_words),
+        "source": ", ".join(counted_sources) if counted_sources else "message",
+        "channel_id": str(channel["id"]),
+        "message_id": message_id,
+        "week": current_week_key(),
+        "created_at": utc_now_iso(),
+        "discord_created_at": message.get("timestamp"),
+        "file_hashes": file_hashes,
+        "source_type": "github_actions_scan",
+    }
+    ws.setdefault("submissions", []).append(submission)
     processed[message_id] = True
+    ensure_count_reply(state, ws, channel, message, submission, force=False)
     return total_words, "counted"
 
 
@@ -504,6 +640,8 @@ def scan_channel(state: dict, channel: dict, goals: List[dict], bot_user_id: str
             counted += words
             changed += 1
             log(f"Counted {words:,} words from message {message['id']} in #{channel.get('name')}")
+        elif status in {"reply-sent", "duplicate-reply-sent"}:
+            log(f"Sent deferred feedback reply for message {message['id']} in #{channel.get('name')}: {status}")
         elif status not in {"already-counted", "nothing-countable"}:
             log(f"Skipped message {message['id']} in #{channel.get('name')}: {status}")
 
@@ -588,7 +726,7 @@ def clear_all_writer(state: dict, channel: dict, ws: dict, reason: str, limit: i
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Writers Bloc GitHub Actions Discord scanner")
-    parser.add_argument("--mode", default="scan-all", choices=["scan-all", "recount-writer", "ignore-doc", "clear-message", "clear-all-writer", "clear-everything", "recount-message"])
+    parser.add_argument("--mode", default="scan-all", choices=["scan-all", "reply-missing", "recount-writer", "ignore-doc", "clear-message", "clear-all-writer", "clear-everything", "recount-message"])
     parser.add_argument("--writer", default="", help="Writer display/name/channel query for targeted modes")
     parser.add_argument("--channel-id", default="", help="Discord channel ID for targeted modes")
     parser.add_argument("--message-id", default="", help="Discord message ID for ignore/clear/recount-message")
@@ -602,7 +740,7 @@ def main() -> int:
         raise RuntimeError("Missing DISCORD_GUILD_ID secret/env var")
 
     log(f"Writers Bloc GitHub Actions scanner version {BOT_VERSION}")
-    log(f"Mode={args.mode} category={CATEGORY_NAME!r} state={STATE_FILE} goals={GOALS_FILE} dry_run={DRY_RUN}")
+    log(f"Mode={args.mode} category={CATEGORY_NAME!r} state={STATE_FILE} goals={GOALS_FILE} dry_run={DRY_RUN} send_replies={SEND_REPLIES}")
 
     state = load_state()
     goals = load_goals()
@@ -615,7 +753,7 @@ def main() -> int:
     changed_channels = 0
     counted_words = 0
 
-    if args.mode == "scan-all":
+    if args.mode in {"scan-all", "reply-missing"}:
         for channel in writer_channels:
             changed, words = scan_channel(state, channel, goals, bot_user_id, args.limit_per_channel, force_rebuild=False)
             changed_channels += 1 if changed else 0

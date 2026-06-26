@@ -12,6 +12,521 @@
           "writer_id": "347521484199034884"
         }
       },
+      "count_replies": {
+        "1514695290324779347": {
+          "channel_id": "1514693934066962462",
+          "created_at": "2026-06-26T17:50:58+00:00",
+          "message_id": "1514695290324779347",
+          "reply_message_id": "1520124229385850911",
+          "source": "The_Wall-Father.docx (3,989)",
+          "words": 3989,
+          "writer": "Daniel Demmin"
+        },
+        "1514823819519332372": {
+          "channel_id": "1514693923103047803",
+          "created_at": "2026-06-26T17:50:56+00:00",
+          "message_id": "1514823819519332372",
+          "reply_message_id": "1520124217729880244",
+          "source": "upload_test.docx (3,581)",
+          "words": 3581,
+          "writer": "Conner Hale"
+        },
+        "1514838992741208114": {
+          "channel_id": "1514832052304740413",
+          "created_at": "2026-06-26T17:51:48+00:00",
+          "message_id": "1514838992741208114",
+          "reply_message_id": "1520124435460522084",
+          "source": "Revenant_-_The_city_that_refuses_to_die.docx (3,847)",
+          "words": 3847,
+          "writer": "Carter Horton"
+        },
+        "1514865334740586546": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:08+00:00",
+          "message_id": "1514865334740586546",
+          "reply_message_id": "1520124268934070393",
+          "source": "Transformation_Ch._1__Family_Secrets.docx (3,019)",
+          "words": 3019,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514865378981843086": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:09+00:00",
+          "message_id": "1514865378981843086",
+          "reply_message_id": "1520124271978877038",
+          "source": "Transformatton_Ch._2__The_Interrogation.docx (2,201)",
+          "words": 2201,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514866083948138677": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:09+00:00",
+          "message_id": "1514866083948138677",
+          "reply_message_id": "1520124274541596843",
+          "source": "Transformation_Ch._3__Spellbounds.docx (3,149)",
+          "words": 3149,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514866593207947284": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:10+00:00",
+          "message_id": "1514866593207947284",
+          "reply_message_id": "1520124277125287988",
+          "source": "Transformation_Ch._4__Celebration_of_the_Newest_Member.docx (3,784)",
+          "words": 3784,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514867124890505347": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:11+00:00",
+          "message_id": "1514867124890505347",
+          "reply_message_id": "1520124280132599973",
+          "source": "Transformation_Ch._5__Training_Training_Training.docx (3,837)",
+          "words": 3837,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514869293169512730": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:11+00:00",
+          "message_id": "1514869293169512730",
+          "reply_message_id": "1520124282859159653",
+          "source": "Transformation_Ch._6__Its_my_Birthday.docx (4,965)",
+          "words": 4965,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514869309829025794": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:12+00:00",
+          "message_id": "1514869309829025794",
+          "reply_message_id": "1520124285367222322",
+          "source": "Transformation_Ch._7__Does_This_Count_as_a_Mission.docx (4,110)",
+          "words": 4110,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514869386823991516": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:12+00:00",
+          "message_id": "1514869386823991516",
+          "reply_message_id": "1520124288160628968",
+          "source": "Transformation_Ch._8__Wishing_You_a_Speedy_Recovery.docx (2,882), Transformation_Ch._9__Tensions_Rise.docx (3,401)",
+          "words": 6283,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514869448735981581": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:13+00:00",
+          "message_id": "1514869448735981581",
+          "reply_message_id": "1520124290786132058",
+          "source": "Transformation_Ch._10__Making_Amends.docx (2,711)",
+          "words": 2711,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514869466394005645": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:14+00:00",
+          "message_id": "1514869466394005645",
+          "reply_message_id": "1520124293445320755",
+          "source": "Transformation_Ch._11__Lies_and_Deception.docx (3,065)",
+          "words": 3065,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514869481888022651": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:15+00:00",
+          "message_id": "1514869481888022651",
+          "reply_message_id": "1520124296712818748",
+          "source": "Transformation_Ch._12__To_Tell_or_Not_to_Tell.docx (4,370)",
+          "words": 4370,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514869495058010183": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:16+00:00",
+          "message_id": "1514869495058010183",
+          "reply_message_id": "1520124300936478872",
+          "source": "Transformaion_Ch._13__Snitches_Get_Stitches.docx (3,630)",
+          "words": 3630,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872512666931310": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:16+00:00",
+          "message_id": "1514872512666931310",
+          "reply_message_id": "1520124303885205585",
+          "source": "Transformation_Ch._14__Swear_on_the_Souls_in_the_Sky.docx (4,294)",
+          "words": 4294,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872524293279867": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:18+00:00",
+          "message_id": "1514872524293279867",
+          "reply_message_id": "1520124309987655832",
+          "source": "Transformation_Ch._15__The_Mole_Hunt.docx (3,901)",
+          "words": 3901,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872537920704523": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:19+00:00",
+          "message_id": "1514872537920704523",
+          "reply_message_id": "1520124313662001275",
+          "source": "Transformation_Ch._16__Betrayal_and_Tale.docx (4,608)",
+          "words": 4608,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872549140467815": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:19+00:00",
+          "message_id": "1514872549140467815",
+          "reply_message_id": "1520124316396818588",
+          "source": "Transformation_Ch._17__Charters_and_Curses.docx (3,925)",
+          "words": 3925,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872561048227844": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:21+00:00",
+          "message_id": "1514872561048227844",
+          "reply_message_id": "1520124325007593514",
+          "source": "Transformation_Ch._18__The_Soul_Snare.docx (3,616)",
+          "words": 3616,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872570611241061": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:22+00:00",
+          "message_id": "1514872570611241061",
+          "reply_message_id": "1520124328631468032",
+          "source": "Transformation_Ch._19__The_Games.docx (3,165)",
+          "words": 3165,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872581520490527": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:23+00:00",
+          "message_id": "1514872581520490527",
+          "reply_message_id": "1520124331697504258",
+          "source": "Transformation_Ch._20__Into_the_Dark.docx (3,539)",
+          "words": 3539,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872592853635074": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:24+00:00",
+          "message_id": "1514872592853635074",
+          "reply_message_id": "1520124336218837078",
+          "source": "Transformation_Ch._21__Perception_is_a_Myth.docx (3,362)",
+          "words": 3362,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872603528138843": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:25+00:00",
+          "message_id": "1514872603528138843",
+          "reply_message_id": "1520124339331006534",
+          "source": "Transformation_Ch._22__The_Plot.docx (3,372)",
+          "words": 3372,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872621739802805": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:25+00:00",
+          "message_id": "1514872621739802805",
+          "reply_message_id": "1520124342011170856",
+          "source": "Transformation_Ch._23__Battle_Ensues.docx (4,353)",
+          "words": 4353,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872644267409429": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:26+00:00",
+          "message_id": "1514872644267409429",
+          "reply_message_id": "1520124344687263845",
+          "source": "Transformation_Ch._24__War_Cry.docx (3,602)",
+          "words": 3602,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872660109037670": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:27+00:00",
+          "message_id": "1514872660109037670",
+          "reply_message_id": "1520124350186000605",
+          "source": "Transformation_Ch._25__Recompense.docx (3,017)",
+          "words": 3017,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514872683463053375": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:29+00:00",
+          "message_id": "1514872683463053375",
+          "reply_message_id": "1520124355894448219",
+          "source": "Transformation__Glossary.docx (489)",
+          "words": 489,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514988819147915284": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:30+00:00",
+          "message_id": "1514988819147915284",
+          "reply_message_id": "1520124359342166016",
+          "source": "Turmoil_Ch._1__Refuge.docx (2,560)",
+          "words": 2560,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514988856922083551": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:30+00:00",
+          "message_id": "1514988856922083551",
+          "reply_message_id": "1520124362601009362",
+          "source": "Turmoil_Ch._2__Danger.docx (2,664)",
+          "words": 2664,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1514988879852077096": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:31+00:00",
+          "message_id": "1514988879852077096",
+          "reply_message_id": "1520124365159665907",
+          "source": "Turmoil_Ch._3__Refusal.docx (3,172)",
+          "words": 3172,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515097697135366268": {
+          "channel_id": "1514693972709085321",
+          "created_at": "2026-06-26T17:51:05+00:00",
+          "message_id": "1515097697135366268",
+          "reply_message_id": "1520124257546408039",
+          "source": "Nichols_Painting_Story.docx (2,745)",
+          "words": 2745,
+          "writer": "Lindsey Nichols"
+        },
+        "1515103143627849739": {
+          "channel_id": "1514694006679011359",
+          "created_at": "2026-06-26T17:51:43+00:00",
+          "message_id": "1515103143627849739",
+          "reply_message_id": "1520124414715363451",
+          "source": "Body_of_Water.docx (9,043)",
+          "words": 9043,
+          "writer": "Mr. Cameron Pilgrim"
+        },
+        "1515111634396385391": {
+          "channel_id": "1514693942510223547",
+          "created_at": "2026-06-26T17:51:01+00:00",
+          "message_id": "1515111634396385391",
+          "reply_message_id": "1520124237673660527",
+          "source": "Sei_Colpi_-_Ch._2_-_Letter_Home.docx (1,137)",
+          "words": 1137,
+          "writer": "Elijah Blythe"
+        },
+        "1515114642014474240": {
+          "channel_id": "1515081909720318093",
+          "created_at": "2026-06-26T17:51:51+00:00",
+          "message_id": "1515114642014474240",
+          "reply_message_id": "1520124450362757412",
+          "source": "The_Islanders.docx (8,567)",
+          "words": 8567,
+          "writer": "Ethan Smallwood"
+        },
+        "1515115395667857478": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:32+00:00",
+          "message_id": "1515115395667857478",
+          "reply_message_id": "1520124370905858122",
+          "source": "Turmoil_Ch._4__Disappearance.docx (2,854)",
+          "words": 2854,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515116497624629290": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:34+00:00",
+          "message_id": "1515116497624629290",
+          "reply_message_id": "1520124376396071146",
+          "source": "Turmoil_Ch._5__Plot.docx (2,097)",
+          "words": 2097,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515121355417325569": {
+          "channel_id": "1514693923103047803",
+          "created_at": "2026-06-26T17:50:57+00:00",
+          "message_id": "1515121355417325569",
+          "reply_message_id": "1520124222603530353",
+          "source": "The_Thingy_Episode_1.docx (3,345)",
+          "words": 3345,
+          "writer": "Conner Hale"
+        },
+        "1515124849239134368": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:34+00:00",
+          "message_id": "1515124849239134368",
+          "reply_message_id": "1520124379663696003",
+          "source": "Turmoil_Ch._6__Confrontation.docx (1,642)",
+          "words": 1642,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515124871707885788": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:35+00:00",
+          "message_id": "1515124871707885788",
+          "reply_message_id": "1520124383010619483",
+          "source": "Turmoil_Ch._7__Visitation.docx (3,768)",
+          "words": 3768,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515124894600269864": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:36+00:00",
+          "message_id": "1515124894600269864",
+          "reply_message_id": "1520124388358488176",
+          "source": "Turmoil_Ch._8__Ambush.docx (3,023)",
+          "words": 3023,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515209167097303170": {
+          "channel_id": "1514832052304740413",
+          "created_at": "2026-06-26T17:51:48+00:00",
+          "message_id": "1515209167097303170",
+          "reply_message_id": "1520124437880635485",
+          "source": "Revenant_ch.1.docx (2,426)",
+          "words": 2426,
+          "writer": "Carter Horton"
+        },
+        "1515209805185286184": {
+          "channel_id": "1514832052304740413",
+          "created_at": "2026-06-26T17:51:49+00:00",
+          "message_id": "1515209805185286184",
+          "reply_message_id": "1520124441139482789",
+          "source": "Revenant_ch2.docx (2,307)",
+          "words": 2307,
+          "writer": "Carter Horton"
+        },
+        "1515381800124289044": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:37+00:00",
+          "message_id": "1515381800124289044",
+          "reply_message_id": "1520124391147442336",
+          "source": "Turmoil_Ch._9__Homecoming.docx (2,298)",
+          "words": 2298,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515568731382612069": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:39+00:00",
+          "message_id": "1515568731382612069",
+          "reply_message_id": "1520124397002817656",
+          "source": "Turmoil_Ch._10__Loyalties.docx (722)",
+          "words": 722,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1515939750496833586": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:39+00:00",
+          "message_id": "1515939750496833586",
+          "reply_message_id": "1520124399674462289",
+          "source": "Turmoil_Ch._11__Reunion.docx (2,607)",
+          "words": 2607,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1516267456426020904": {
+          "channel_id": "1516155328671125866",
+          "created_at": "2026-06-26T17:51:52+00:00",
+          "message_id": "1516267456426020904",
+          "reply_message_id": "1520124455744045239",
+          "source": "Lolas_Novel.docx (2,473)",
+          "words": 2473,
+          "writer": "Lola Diaz"
+        },
+        "1516471706183532746": {
+          "channel_id": "1514693942510223547",
+          "created_at": "2026-06-26T17:51:01+00:00",
+          "message_id": "1516471706183532746",
+          "reply_message_id": "1520124240815456417",
+          "source": "Sei_Colpi_-_Chapter_2_cont.docx (751)",
+          "words": 751,
+          "writer": "Elijah Blythe"
+        },
+        "1516950700976902165": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:41+00:00",
+          "message_id": "1516950700976902165",
+          "reply_message_id": "1520124405324185643",
+          "source": "Turmoil_Ch._12__Rescue.docx (3,992)",
+          "words": 3992,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1516964310532886728": {
+          "channel_id": "1514722343950221533",
+          "created_at": "2026-06-26T17:51:46+00:00",
+          "message_id": "1516964310532886728",
+          "reply_message_id": "1520124430162854048",
+          "source": "Miss_Missy_-_Screenplay_-_Final_Draft_For_Writers_Bloc.docx (17,460)",
+          "words": 17460,
+          "writer": "Ciela Vinson"
+        },
+        "1517511308814057545": {
+          "channel_id": "1514693951330717832",
+          "created_at": "2026-06-26T17:51:03+00:00",
+          "message_id": "1517511308814057545",
+          "reply_message_id": "1520124248843092149",
+          "source": "Discussion.docx (143)",
+          "words": 143,
+          "writer": "Isaiah Gibbins"
+        },
+        "1517611522979791050": {
+          "channel_id": "1514693934066962462",
+          "created_at": "2026-06-26T17:50:59+00:00",
+          "message_id": "1517611522979791050",
+          "reply_message_id": "1520124232279785472",
+          "source": "King_In_Silver_Thieves_and_Stones.docx (2,556)",
+          "words": 2556,
+          "writer": "Daniel Demmin"
+        },
+        "1517630098235326596": {
+          "channel_id": "1514832052304740413",
+          "created_at": "2026-06-26T17:51:50+00:00",
+          "message_id": "1517630098235326596",
+          "reply_message_id": "1520124444692185098",
+          "source": "Chapter_3.docx (2,524)",
+          "words": 2524,
+          "writer": "Carter Horton"
+        },
+        "1517631414776889415": {
+          "channel_id": "1514693942510223547",
+          "created_at": "2026-06-26T17:51:02+00:00",
+          "message_id": "1517631414776889415",
+          "reply_message_id": "1520124243478712520",
+          "source": "Sei_Colpi_-_Ch._3_Pt._1.docx (659)",
+          "words": 659,
+          "writer": "Elijah Blythe"
+        },
+        "1517647584355815555": {
+          "channel_id": "1514693972709085321",
+          "created_at": "2026-06-26T17:51:06+00:00",
+          "message_id": "1517647584355815555",
+          "reply_message_id": "1520124260490809454",
+          "source": "Week_Three_Writing.docx (1,731)",
+          "words": 1731,
+          "writer": "Lindsey Nichols"
+        },
+        "1519818896599941202": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-06-26T17:51:41+00:00",
+          "message_id": "1519818896599941202",
+          "reply_message_id": "1520124409132748910",
+          "source": "Turmoil_Ch._13__Jailbreak.docx (3,766)",
+          "words": 3766,
+          "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1520081764402462851": {
+          "channel_id": "1514694006679011359",
+          "created_at": "2026-06-26T17:51:44+00:00",
+          "message_id": "1520081764402462851",
+          "reply_message_id": "1520124418439774408",
+          "source": "Body_of_Water_Chapter_One.docx (4,239)",
+          "words": 4239,
+          "writer": "Mr. Cameron Pilgrim"
+        }
+      },
       "duplicate_messages": {},
       "ignored_messages": {
         "1514856835197177987": {
@@ -100,6 +615,7 @@
       "settings": {
         "default_weekly_goal": 1500
       },
+      "skipped_replies": {},
       "writers": {
         "1082363839934378064": {
           "channel_id": "1514693995412852886",
@@ -110,7 +626,7 @@
           "goal_name_match": "Mariam and Chief",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:35+00:00",
+          "goal_updated_at": "2026-06-26T17:51:07+00:00",
           "submissions": [
             {
               "channel_id": "1514693995412852886",
@@ -125,6 +641,8 @@
                 }
               ],
               "message_id": "1514865334740586546",
+              "reply_message_id": "1520124268934070393",
+              "reply_sent_at": "2026-06-26T17:51:08+00:00",
               "source": "Transformation_Ch._1__Family_Secrets.docx (3,019)",
               "week": "2026-W25",
               "words": 3019
@@ -142,6 +660,8 @@
                 }
               ],
               "message_id": "1514865378981843086",
+              "reply_message_id": "1520124271978877038",
+              "reply_sent_at": "2026-06-26T17:51:09+00:00",
               "source": "Transformatton_Ch._2__The_Interrogation.docx (2,201)",
               "week": "2026-W25",
               "words": 2201
@@ -159,6 +679,8 @@
                 }
               ],
               "message_id": "1514866083948138677",
+              "reply_message_id": "1520124274541596843",
+              "reply_sent_at": "2026-06-26T17:51:09+00:00",
               "source": "Transformation_Ch._3__Spellbounds.docx (3,149)",
               "week": "2026-W25",
               "words": 3149
@@ -176,6 +698,8 @@
                 }
               ],
               "message_id": "1514866593207947284",
+              "reply_message_id": "1520124277125287988",
+              "reply_sent_at": "2026-06-26T17:51:10+00:00",
               "source": "Transformation_Ch._4__Celebration_of_the_Newest_Member.docx (3,784)",
               "week": "2026-W25",
               "words": 3784
@@ -193,6 +717,8 @@
                 }
               ],
               "message_id": "1514867124890505347",
+              "reply_message_id": "1520124280132599973",
+              "reply_sent_at": "2026-06-26T17:51:11+00:00",
               "source": "Transformation_Ch._5__Training_Training_Training.docx (3,837)",
               "week": "2026-W25",
               "words": 3837
@@ -210,6 +736,8 @@
                 }
               ],
               "message_id": "1514869293169512730",
+              "reply_message_id": "1520124282859159653",
+              "reply_sent_at": "2026-06-26T17:51:11+00:00",
               "source": "Transformation_Ch._6__Its_my_Birthday.docx (4,965)",
               "week": "2026-W25",
               "words": 4965
@@ -227,6 +755,8 @@
                 }
               ],
               "message_id": "1514869309829025794",
+              "reply_message_id": "1520124285367222322",
+              "reply_sent_at": "2026-06-26T17:51:12+00:00",
               "source": "Transformation_Ch._7__Does_This_Count_as_a_Mission.docx (4,110)",
               "week": "2026-W25",
               "words": 4110
@@ -251,6 +781,8 @@
                 }
               ],
               "message_id": "1514869386823991516",
+              "reply_message_id": "1520124288160628968",
+              "reply_sent_at": "2026-06-26T17:51:12+00:00",
               "source": "Transformation_Ch._8__Wishing_You_a_Speedy_Recovery.docx (2,882), Transformation_Ch._9__Tensions_Rise.docx (3,401)",
               "week": "2026-W25",
               "words": 6283
@@ -268,6 +800,8 @@
                 }
               ],
               "message_id": "1514869448735981581",
+              "reply_message_id": "1520124290786132058",
+              "reply_sent_at": "2026-06-26T17:51:13+00:00",
               "source": "Transformation_Ch._10__Making_Amends.docx (2,711)",
               "week": "2026-W25",
               "words": 2711
@@ -285,6 +819,8 @@
                 }
               ],
               "message_id": "1514869466394005645",
+              "reply_message_id": "1520124293445320755",
+              "reply_sent_at": "2026-06-26T17:51:14+00:00",
               "source": "Transformation_Ch._11__Lies_and_Deception.docx (3,065)",
               "week": "2026-W25",
               "words": 3065
@@ -302,6 +838,8 @@
                 }
               ],
               "message_id": "1514869481888022651",
+              "reply_message_id": "1520124296712818748",
+              "reply_sent_at": "2026-06-26T17:51:15+00:00",
               "source": "Transformation_Ch._12__To_Tell_or_Not_to_Tell.docx (4,370)",
               "week": "2026-W25",
               "words": 4370
@@ -319,6 +857,8 @@
                 }
               ],
               "message_id": "1514869495058010183",
+              "reply_message_id": "1520124300936478872",
+              "reply_sent_at": "2026-06-26T17:51:16+00:00",
               "source": "Transformaion_Ch._13__Snitches_Get_Stitches.docx (3,630)",
               "week": "2026-W25",
               "words": 3630
@@ -336,6 +876,8 @@
                 }
               ],
               "message_id": "1514872512666931310",
+              "reply_message_id": "1520124303885205585",
+              "reply_sent_at": "2026-06-26T17:51:16+00:00",
               "source": "Transformation_Ch._14__Swear_on_the_Souls_in_the_Sky.docx (4,294)",
               "week": "2026-W25",
               "words": 4294
@@ -353,6 +895,8 @@
                 }
               ],
               "message_id": "1514872524293279867",
+              "reply_message_id": "1520124309987655832",
+              "reply_sent_at": "2026-06-26T17:51:18+00:00",
               "source": "Transformation_Ch._15__The_Mole_Hunt.docx (3,901)",
               "week": "2026-W25",
               "words": 3901
@@ -370,6 +914,8 @@
                 }
               ],
               "message_id": "1514872537920704523",
+              "reply_message_id": "1520124313662001275",
+              "reply_sent_at": "2026-06-26T17:51:19+00:00",
               "source": "Transformation_Ch._16__Betrayal_and_Tale.docx (4,608)",
               "week": "2026-W25",
               "words": 4608
@@ -387,6 +933,8 @@
                 }
               ],
               "message_id": "1514872549140467815",
+              "reply_message_id": "1520124316396818588",
+              "reply_sent_at": "2026-06-26T17:51:19+00:00",
               "source": "Transformation_Ch._17__Charters_and_Curses.docx (3,925)",
               "week": "2026-W25",
               "words": 3925
@@ -404,6 +952,8 @@
                 }
               ],
               "message_id": "1514872561048227844",
+              "reply_message_id": "1520124325007593514",
+              "reply_sent_at": "2026-06-26T17:51:21+00:00",
               "source": "Transformation_Ch._18__The_Soul_Snare.docx (3,616)",
               "week": "2026-W25",
               "words": 3616
@@ -421,6 +971,8 @@
                 }
               ],
               "message_id": "1514872570611241061",
+              "reply_message_id": "1520124328631468032",
+              "reply_sent_at": "2026-06-26T17:51:22+00:00",
               "source": "Transformation_Ch._19__The_Games.docx (3,165)",
               "week": "2026-W25",
               "words": 3165
@@ -438,6 +990,8 @@
                 }
               ],
               "message_id": "1514872581520490527",
+              "reply_message_id": "1520124331697504258",
+              "reply_sent_at": "2026-06-26T17:51:23+00:00",
               "source": "Transformation_Ch._20__Into_the_Dark.docx (3,539)",
               "week": "2026-W25",
               "words": 3539
@@ -455,6 +1009,8 @@
                 }
               ],
               "message_id": "1514872592853635074",
+              "reply_message_id": "1520124336218837078",
+              "reply_sent_at": "2026-06-26T17:51:24+00:00",
               "source": "Transformation_Ch._21__Perception_is_a_Myth.docx (3,362)",
               "week": "2026-W25",
               "words": 3362
@@ -472,6 +1028,8 @@
                 }
               ],
               "message_id": "1514872603528138843",
+              "reply_message_id": "1520124339331006534",
+              "reply_sent_at": "2026-06-26T17:51:25+00:00",
               "source": "Transformation_Ch._22__The_Plot.docx (3,372)",
               "week": "2026-W25",
               "words": 3372
@@ -489,6 +1047,8 @@
                 }
               ],
               "message_id": "1514872621739802805",
+              "reply_message_id": "1520124342011170856",
+              "reply_sent_at": "2026-06-26T17:51:25+00:00",
               "source": "Transformation_Ch._23__Battle_Ensues.docx (4,353)",
               "week": "2026-W25",
               "words": 4353
@@ -506,6 +1066,8 @@
                 }
               ],
               "message_id": "1514872644267409429",
+              "reply_message_id": "1520124344687263845",
+              "reply_sent_at": "2026-06-26T17:51:26+00:00",
               "source": "Transformation_Ch._24__War_Cry.docx (3,602)",
               "week": "2026-W25",
               "words": 3602
@@ -523,6 +1085,8 @@
                 }
               ],
               "message_id": "1514872660109037670",
+              "reply_message_id": "1520124350186000605",
+              "reply_sent_at": "2026-06-26T17:51:27+00:00",
               "source": "Transformation_Ch._25__Recompense.docx (3,017)",
               "week": "2026-W25",
               "words": 3017
@@ -540,6 +1104,8 @@
                 }
               ],
               "message_id": "1514872683463053375",
+              "reply_message_id": "1520124355894448219",
+              "reply_sent_at": "2026-06-26T17:51:29+00:00",
               "source": "Transformation__Glossary.docx (489)",
               "week": "2026-W25",
               "words": 489
@@ -557,6 +1123,8 @@
                 }
               ],
               "message_id": "1514988819147915284",
+              "reply_message_id": "1520124359342166016",
+              "reply_sent_at": "2026-06-26T17:51:30+00:00",
               "source": "Turmoil_Ch._1__Refuge.docx (2,560)",
               "week": "2026-W25",
               "words": 2560
@@ -574,6 +1142,8 @@
                 }
               ],
               "message_id": "1514988856922083551",
+              "reply_message_id": "1520124362601009362",
+              "reply_sent_at": "2026-06-26T17:51:30+00:00",
               "source": "Turmoil_Ch._2__Danger.docx (2,664)",
               "week": "2026-W25",
               "words": 2664
@@ -591,6 +1161,8 @@
                 }
               ],
               "message_id": "1514988879852077096",
+              "reply_message_id": "1520124365159665907",
+              "reply_sent_at": "2026-06-26T17:51:31+00:00",
               "source": "Turmoil_Ch._3__Refusal.docx (3,172)",
               "week": "2026-W25",
               "words": 3172
@@ -608,6 +1180,8 @@
                 }
               ],
               "message_id": "1515115395667857478",
+              "reply_message_id": "1520124370905858122",
+              "reply_sent_at": "2026-06-26T17:51:32+00:00",
               "source": "Turmoil_Ch._4__Disappearance.docx (2,854)",
               "week": "2026-W25",
               "words": 2854
@@ -625,6 +1199,8 @@
                 }
               ],
               "message_id": "1515116497624629290",
+              "reply_message_id": "1520124376396071146",
+              "reply_sent_at": "2026-06-26T17:51:34+00:00",
               "source": "Turmoil_Ch._5__Plot.docx (2,097)",
               "week": "2026-W25",
               "words": 2097
@@ -642,6 +1218,8 @@
                 }
               ],
               "message_id": "1515124849239134368",
+              "reply_message_id": "1520124379663696003",
+              "reply_sent_at": "2026-06-26T17:51:34+00:00",
               "source": "Turmoil_Ch._6__Confrontation.docx (1,642)",
               "week": "2026-W25",
               "words": 1642
@@ -659,6 +1237,8 @@
                 }
               ],
               "message_id": "1515124871707885788",
+              "reply_message_id": "1520124383010619483",
+              "reply_sent_at": "2026-06-26T17:51:35+00:00",
               "source": "Turmoil_Ch._7__Visitation.docx (3,768)",
               "week": "2026-W25",
               "words": 3768
@@ -676,6 +1256,8 @@
                 }
               ],
               "message_id": "1515124894600269864",
+              "reply_message_id": "1520124388358488176",
+              "reply_sent_at": "2026-06-26T17:51:36+00:00",
               "source": "Turmoil_Ch._8__Ambush.docx (3,023)",
               "week": "2026-W25",
               "words": 3023
@@ -693,6 +1275,8 @@
                 }
               ],
               "message_id": "1515381800124289044",
+              "reply_message_id": "1520124391147442336",
+              "reply_sent_at": "2026-06-26T17:51:37+00:00",
               "source": "Turmoil_Ch._9__Homecoming.docx (2,298)",
               "week": "2026-W25",
               "words": 2298
@@ -710,6 +1294,8 @@
                 }
               ],
               "message_id": "1515568731382612069",
+              "reply_message_id": "1520124397002817656",
+              "reply_sent_at": "2026-06-26T17:51:39+00:00",
               "source": "Turmoil_Ch._10__Loyalties.docx (722)",
               "week": "2026-W25",
               "words": 722
@@ -727,6 +1313,8 @@
                 }
               ],
               "message_id": "1515939750496833586",
+              "reply_message_id": "1520124399674462289",
+              "reply_sent_at": "2026-06-26T17:51:39+00:00",
               "source": "Turmoil_Ch._11__Reunion.docx (2,607)",
               "week": "2026-W25",
               "words": 2607
@@ -739,6 +1327,8 @@
                 "b480293a8212278fde71007833ea805a38ef858e14c474efae72413b0c3ecae5"
               ],
               "message_id": "1516950700976902165",
+              "reply_message_id": "1520124405324185643",
+              "reply_sent_at": "2026-06-26T17:51:41+00:00",
               "source": "Turmoil_Ch._12__Rescue.docx (3,992)",
               "source_type": "github_actions_scan",
               "week": "2026-W26",
@@ -752,6 +1342,8 @@
                 "28d5f2df3ee705f84e0b115f3374871a574aa740a53c5f0c89181037463f7545"
               ],
               "message_id": "1519818896599941202",
+              "reply_message_id": "1520124409132748910",
+              "reply_sent_at": "2026-06-26T17:51:41+00:00",
               "source": "Turmoil_Ch._13__Jailbreak.docx (3,766)",
               "source_type": "github_actions_scan",
               "week": "2026-W26",
@@ -769,7 +1361,7 @@
           "goal_name_match": "Conner Hale",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:31+00:00",
+          "goal_updated_at": "2026-06-26T17:50:55+00:00",
           "submissions": [
             {
               "channel_id": "1514693923103047803",
@@ -784,6 +1376,8 @@
                 }
               ],
               "message_id": "1514823819519332372",
+              "reply_message_id": "1520124217729880244",
+              "reply_sent_at": "2026-06-26T17:50:56+00:00",
               "source": "upload_test.docx (3,581)",
               "week": "2026-W24",
               "words": 3581
@@ -801,6 +1395,8 @@
                 }
               ],
               "message_id": "1515121355417325569",
+              "reply_message_id": "1520124222603530353",
+              "reply_sent_at": "2026-06-26T17:50:57+00:00",
               "source": "The_Thingy_Episode_1.docx (3,345)",
               "week": "2026-W24",
               "words": 3345
@@ -817,7 +1413,7 @@
           "goal_name_match": "Lola",
           "goal_set_by": null,
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:40+00:00",
+          "goal_updated_at": "2026-06-26T17:51:52+00:00",
           "submissions": [
             {
               "channel_id": "1516155328671125866",
@@ -832,6 +1428,8 @@
                 }
               ],
               "message_id": "1516267456426020904",
+              "reply_message_id": "1520124455744045239",
+              "reply_sent_at": "2026-06-26T17:51:52+00:00",
               "source": "Lolas_Novel.docx (2,473)",
               "week": "2026-W25",
               "words": 2473
@@ -848,7 +1446,7 @@
           "goal_name_match": "Isaiah Gibbins",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:32+00:00",
+          "goal_updated_at": "2026-06-26T17:51:03+00:00",
           "submissions": [
             {
               "channel_id": "1514693951330717832",
@@ -863,6 +1461,8 @@
                 }
               ],
               "message_id": "1517511308814057545",
+              "reply_message_id": "1520124248843092149",
+              "reply_sent_at": "2026-06-26T17:51:03+00:00",
               "source": "Discussion.docx (143)",
               "week": "2026-W25",
               "words": 143
@@ -879,7 +1479,7 @@
           "goal_name_match": "Joshua S. Smith",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:33+00:00",
+          "goal_updated_at": "2026-06-26T17:51:04+00:00",
           "submissions": [],
           "user_id": "1320771261952950302"
         },
@@ -892,7 +1492,7 @@
           "goal_name_match": "Elijah Blythe",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:32+00:00",
+          "goal_updated_at": "2026-06-26T17:51:00+00:00",
           "submissions": [
             {
               "channel_id": "1514693942510223547",
@@ -907,6 +1507,8 @@
                 }
               ],
               "message_id": "1515111634396385391",
+              "reply_message_id": "1520124237673660527",
+              "reply_sent_at": "2026-06-26T17:51:01+00:00",
               "source": "Sei_Colpi_-_Ch._2_-_Letter_Home.docx (1,137)",
               "week": "2026-W24",
               "words": 1137
@@ -924,6 +1526,8 @@
                 }
               ],
               "message_id": "1516471706183532746",
+              "reply_message_id": "1520124240815456417",
+              "reply_sent_at": "2026-06-26T17:51:01+00:00",
               "source": "Sei_Colpi_-_Chapter_2_cont.docx (751)",
               "week": "2026-W25",
               "words": 751
@@ -941,6 +1545,8 @@
                 }
               ],
               "message_id": "1517631414776889415",
+              "reply_message_id": "1520124243478712520",
+              "reply_sent_at": "2026-06-26T17:51:02+00:00",
               "source": "Sei_Colpi_-_Ch._3_Pt._1.docx (659)",
               "week": "2026-W25",
               "words": 659
@@ -983,6 +1589,8 @@
                 }
               ],
               "message_id": "1515114642014474240",
+              "reply_message_id": "1520124450362757412",
+              "reply_sent_at": "2026-06-26T17:51:51+00:00",
               "source": "The_Islanders.docx (8,567)",
               "week": "2026-W24",
               "words": 8567
@@ -999,7 +1607,7 @@
           "goal_name_match": "Lyn Evans",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:34+00:00",
+          "goal_updated_at": "2026-06-26T17:51:07+00:00",
           "submissions": [],
           "user_id": "1512878497683734528"
         },
@@ -1026,6 +1634,8 @@
                 }
               ],
               "message_id": "1516964310532886728",
+              "reply_message_id": "1520124430162854048",
+              "reply_sent_at": "2026-06-26T17:51:46+00:00",
               "source": "Miss_Missy_-_Screenplay_-_Final_Draft_For_Writers_Bloc.docx (17,460)",
               "week": "2026-W25",
               "words": 17460
@@ -1042,7 +1652,7 @@
           "goal_name_match": "Caleb Scott",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:37+00:00",
+          "goal_updated_at": "2026-06-26T17:51:44+00:00",
           "submissions": [
             {
               "channel_id": "1514694018024472628",
@@ -1065,7 +1675,7 @@
           "goal_name_match": "Daniel Demmin",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:31+00:00",
+          "goal_updated_at": "2026-06-26T17:50:58+00:00",
           "submissions": [
             {
               "channel_id": "1514693934066962462",
@@ -1080,6 +1690,8 @@
                 }
               ],
               "message_id": "1514695290324779347",
+              "reply_message_id": "1520124229385850911",
+              "reply_sent_at": "2026-06-26T17:50:58+00:00",
               "source": "The_Wall-Father.docx (3,989)",
               "week": "2026-W24",
               "words": 3989
@@ -1097,6 +1709,8 @@
                 }
               ],
               "message_id": "1517611522979791050",
+              "reply_message_id": "1520124232279785472",
+              "reply_sent_at": "2026-06-26T17:50:59+00:00",
               "source": "King_In_Silver_Thieves_and_Stones.docx (2,556)",
               "week": "2026-W25",
               "words": 2556
@@ -1113,7 +1727,7 @@
           "goal_name_match": "Lindsey Nichols",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:33+00:00",
+          "goal_updated_at": "2026-06-26T17:51:05+00:00",
           "submissions": [
             {
               "channel_id": "1514693972709085321",
@@ -1128,6 +1742,8 @@
                 }
               ],
               "message_id": "1515097697135366268",
+              "reply_message_id": "1520124257546408039",
+              "reply_sent_at": "2026-06-26T17:51:05+00:00",
               "source": "Nichols_Painting_Story.docx (2,745)",
               "week": "2026-W24",
               "words": 2745
@@ -1145,6 +1761,8 @@
                 }
               ],
               "message_id": "1517647584355815555",
+              "reply_message_id": "1520124260490809454",
+              "reply_sent_at": "2026-06-26T17:51:06+00:00",
               "source": "Week_Three_Writing.docx (1,731)",
               "week": "2026-W25",
               "words": 1731
@@ -1161,7 +1779,7 @@
           "goal_name_match": "Cameron Pilgrim",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:36+00:00",
+          "goal_updated_at": "2026-06-26T17:51:42+00:00",
           "submissions": [
             {
               "channel_id": "1514694006679011359",
@@ -1176,6 +1794,8 @@
                 }
               ],
               "message_id": "1515103143627849739",
+              "reply_message_id": "1520124414715363451",
+              "reply_sent_at": "2026-06-26T17:51:43+00:00",
               "source": "Body_of_Water.docx (9,043)",
               "week": "2026-W24",
               "words": 9043
@@ -1188,6 +1808,8 @@
                 "c92f6de089352bd670fb451befe373e9c4ba42df6f9dc7d82b71283a43abbc6d"
               ],
               "message_id": "1520081764402462851",
+              "reply_message_id": "1520124418439774408",
+              "reply_sent_at": "2026-06-26T17:51:44+00:00",
               "source": "Body_of_Water_Chapter_One.docx (4,239)",
               "source_type": "github_actions_scan",
               "week": "2026-W26",
@@ -1205,7 +1827,7 @@
           "goal_name_match": "Carter Horton",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-06-26T17:12:39+00:00",
+          "goal_updated_at": "2026-06-26T17:51:47+00:00",
           "submissions": [
             {
               "channel_id": "1514832052304740413",
@@ -1220,6 +1842,8 @@
                 }
               ],
               "message_id": "1514838992741208114",
+              "reply_message_id": "1520124435460522084",
+              "reply_sent_at": "2026-06-26T17:51:48+00:00",
               "source": "Revenant_-_The_city_that_refuses_to_die.docx (3,847)",
               "week": "2026-W24",
               "words": 3847
@@ -1237,6 +1861,8 @@
                 }
               ],
               "message_id": "1515209167097303170",
+              "reply_message_id": "1520124437880635485",
+              "reply_sent_at": "2026-06-26T17:51:48+00:00",
               "source": "Revenant_ch.1.docx (2,426)",
               "week": "2026-W25",
               "words": 2426
@@ -1254,6 +1880,8 @@
                 }
               ],
               "message_id": "1515209805185286184",
+              "reply_message_id": "1520124441139482789",
+              "reply_sent_at": "2026-06-26T17:51:49+00:00",
               "source": "Revenant_ch2.docx (2,307)",
               "week": "2026-W25",
               "words": 2307
@@ -1271,6 +1899,8 @@
                 }
               ],
               "message_id": "1517630098235326596",
+              "reply_message_id": "1520124444692185098",
+              "reply_sent_at": "2026-06-26T17:51:50+00:00",
               "source": "Chapter_3.docx (2,524)",
               "week": "2026-W25",
               "words": 2524
@@ -1281,5 +1911,5 @@
       }
     }
   },
-  "version": "2026-06-26-github-actions-scheduled-scanner-v1"
+  "version": "2026-06-26-github-actions-scheduled-scanner-v2-replies"
 }

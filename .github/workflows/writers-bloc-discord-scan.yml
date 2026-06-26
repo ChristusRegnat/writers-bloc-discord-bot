@@ -1,0 +1,132 @@
+name: Writers Bloc Discord Scheduled Scanner
+
+on:
+  # GitHub schedules run in UTC. This runs once per hour at minute 17.
+  # You can change this to evening-only, for example: '17 1 * * *' for 8:17 PM Central during CDT.
+  schedule:
+    - cron: '17 * * * *'
+
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: What should the scanner do?
+        required: true
+        default: scan-all
+        type: choice
+        options:
+          - scan-all
+          - recount-writer
+          - ignore-doc
+          - clear-message
+          - clear-all-writer
+          - clear-everything
+          - recount-message
+      writer:
+        description: Optional writer name/channel search, e.g. Conner, Hale, Daniel. Use channel_id if ambiguous.
+        required: false
+        default: ''
+        type: string
+      channel_id:
+        description: Optional Discord writer channel ID. Best for precise recount/clear/ignore.
+        required: false
+        default: ''
+        type: string
+      message_id:
+        description: Optional Discord message ID for ignore-doc, clear-message, or recount-message.
+        required: false
+        default: ''
+        type: string
+      limit_per_channel:
+        description: How many recent messages to scan per channel.
+        required: true
+        default: '250'
+        type: string
+      reason:
+        description: Optional reason saved in state for ignore/clear operations.
+        required: false
+        default: ''
+        type: string
+
+concurrency:
+  group: writers-bloc-discord-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  STATE_FILE: writers_bloc_3mm_state.json
+  GOALS_FILE: writer_weekly_goals.json
+  DISCORD_CATEGORY_NAME: 3MM Writer Manuscripts
+
+jobs:
+  scan-discord:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Resolve workflow inputs
+        id: vars
+        shell: bash
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          WRITER="${{ github.event.inputs.writer }}"
+          CHANNEL_ID="${{ github.event.inputs.channel_id }}"
+          MESSAGE_ID="${{ github.event.inputs.message_id }}"
+          LIMIT_PER_CHANNEL="${{ github.event.inputs.limit_per_channel }}"
+          REASON="${{ github.event.inputs.reason }}"
+
+          if [ -z "$MODE" ]; then MODE="scan-all"; fi
+          if [ -z "$LIMIT_PER_CHANNEL" ]; then LIMIT_PER_CHANNEL="250"; fi
+
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "writer=$WRITER" >> "$GITHUB_OUTPUT"
+          echo "channel_id=$CHANNEL_ID" >> "$GITHUB_OUTPUT"
+          echo "message_id=$MESSAGE_ID" >> "$GITHUB_OUTPUT"
+          echo "limit_per_channel=$LIMIT_PER_CHANNEL" >> "$GITHUB_OUTPUT"
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+
+      - name: Run Discord scanner
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
+        run: |
+          python discord_scheduled_scanner.py \
+            --mode "${{ steps.vars.outputs.mode }}" \
+            --writer "${{ steps.vars.outputs.writer }}" \
+            --channel-id "${{ steps.vars.outputs.channel_id }}" \
+            --message-id "${{ steps.vars.outputs.message_id }}" \
+            --limit-per-channel "${{ steps.vars.outputs.limit_per_channel }}" \
+            --reason "${{ steps.vars.outputs.reason }}"
+
+      - name: Upload scan report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: writers-bloc-scan-report
+          path: gha_scan_report.md
+          if-no-files-found: ignore
+
+      - name: Commit updated state
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add writers_bloc_3mm_state.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "Update Writers Bloc Discord word-count state [skip ci]"
+            git push
+          fi

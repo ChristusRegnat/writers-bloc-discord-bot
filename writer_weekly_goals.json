@@ -1,0 +1,18 @@
+{
+  "description": "Source of truth for Writers Bloc 3MM weekly goals. The scanner fuzzy-matches these aliases against Discord channel names and saved writer display names.",
+  "goals": [
+    {"name": "Joshua S. Smith", "goal": 1000, "aliases": ["Joshua S. Smith", "Joshua", "Josh", "Smith"]},
+    {"name": "Daniel Demmin", "goal": 3000, "aliases": ["Daniel Demmin", "Daniel", "Demmin"]},
+    {"name": "Caleb Scott", "goal": 1000, "aliases": ["Caleb Scott", "Caleb", "Scott"]},
+    {"name": "Elijah Blythe", "goal": 1000, "aliases": ["Elijah Blythe", "Elijah", "Blythe"]},
+    {"name": "Isaiah Gibbins", "goal": 100, "aliases": ["Isaiah Gibbins", "Isaiah Gibbons", "Isaiah", "Gibbins", "Gibbons"]},
+    {"name": "Lindsey Nichols", "goal": 2100, "aliases": ["Lindsey", "Lindsay", "Lindsey Nichols", "Nichols"]},
+    {"name": "Lyn Evans", "goal": 1000, "aliases": ["Lyn Evans", "Lynn Evans", "Evans", "Lyn", "Lynn"]},
+    {"name": "Cameron Pilgrim", "goal": 2500, "aliases": ["Cameron Pilgrim", "Mr. Cameron Pilgrim", "Cameron", "Pilgrim"]},
+    {"name": "Conner Hale", "goal": 2000, "aliases": ["Conner Hale", "Connor Hale", "Conner", "Connor", "Hale"]},
+    {"name": "Carter Horton", "goal": 2500, "aliases": ["Carter Horton", "Carter", "Horton", "F1rst Frosty", "First Frosty"]},
+    {"name": "Mariam and Chief", "goal": 3000, "aliases": ["Mariam and Chief", "Mariam", "Miriam", "Chief"]},
+    {"name": "Ethan", "goal": 850, "aliases": ["Ethan"]},
+    {"name": "Lola", "goal": 1000, "aliases": ["Lola"]}
+  ]
+}

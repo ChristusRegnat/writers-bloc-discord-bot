@@ -561,6 +561,24 @@
           "source": "Chapter_4.docx (1,746)",
           "words": 1746,
           "writer": "Carter Horton"
+        },
+        "1522722227617923162": {
+          "channel_id": "1514693923103047803",
+          "created_at": "2026-07-03T22:25:55+00:00",
+          "message_id": "1522722227617923162",
+          "reply_message_id": "1522730133423788213",
+          "source": "The_Thingy__Episode_2_Partial.docx (1,035)",
+          "words": 1035,
+          "writer": "Conner Hale"
+        },
+        "1522728722673832099": {
+          "channel_id": "1514832052304740413",
+          "created_at": "2026-07-03T22:26:02+00:00",
+          "message_id": "1522728722673832099",
+          "reply_message_id": "1522730163652263976",
+          "source": "Chapter_4.docx (2,688)",
+          "words": 2688,
+          "writer": "Carter Horton"
         }
       },
       "duplicate_messages": {},
@@ -651,7 +669,9 @@
         "1520171777421217802": true,
         "1520185295121944717": true,
         "1520185706201219073": true,
-        "1521659719251394712": true
+        "1521659719251394712": true,
+        "1522722227617923162": true,
+        "1522728722673832099": true
       },
       "settings": {
         "default_weekly_goal": 1500
@@ -667,7 +687,7 @@
           "goal_name_match": "Mariam and Chief",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:08+00:00",
+          "goal_updated_at": "2026-07-03T22:25:58+00:00",
           "submissions": [
             {
               "channel_id": "1514693995412852886",
@@ -1402,7 +1422,7 @@
           "goal_name_match": "Conner Hale",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:04+00:00",
+          "goal_updated_at": "2026-07-03T22:25:54+00:00",
           "submissions": [
             {
               "channel_id": "1514693923103047803",
@@ -1456,6 +1476,21 @@
               "source_type": "github_actions_scan",
               "week": "2026-W26",
               "words": 5992
+            },
+            {
+              "channel_id": "1514693923103047803",
+              "created_at": "2026-07-03T22:25:54+00:00",
+              "discord_created_at": "2026-07-03T21:54:29.875000+00:00",
+              "file_hashes": [
+                "4277cf9486561028ff819fdebca0eccffe9e81a397539f9697955d4fe1c4387a"
+              ],
+              "message_id": "1522722227617923162",
+              "reply_message_id": "1522730133423788213",
+              "reply_sent_at": "2026-07-03T22:25:55+00:00",
+              "source": "The_Thingy__Episode_2_Partial.docx (1,035)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W27",
+              "words": 1035
             }
           ],
           "user_id": "1126352859202596925"
@@ -1469,7 +1504,7 @@
           "goal_name_match": "Lola",
           "goal_set_by": null,
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:12+00:00",
+          "goal_updated_at": "2026-07-03T22:26:03+00:00",
           "submissions": [
             {
               "channel_id": "1516155328671125866",
@@ -1502,7 +1537,7 @@
           "goal_name_match": "Isaiah Gibbins",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:06+00:00",
+          "goal_updated_at": "2026-07-03T22:25:56+00:00",
           "submissions": [
             {
               "channel_id": "1514693951330717832",
@@ -1535,7 +1570,7 @@
           "goal_name_match": "Joshua S. Smith",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:07+00:00",
+          "goal_updated_at": "2026-07-03T22:25:57+00:00",
           "submissions": [],
           "user_id": "1320771261952950302"
         },
@@ -1548,7 +1583,7 @@
           "goal_name_match": "Elijah Blythe",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:05+00:00",
+          "goal_updated_at": "2026-07-03T22:25:56+00:00",
           "submissions": [
             {
               "channel_id": "1514693942510223547",
@@ -1678,7 +1713,7 @@
           "goal_name_match": "Lyn Evans",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:08+00:00",
+          "goal_updated_at": "2026-07-03T22:25:58+00:00",
           "submissions": [],
           "user_id": "1512878497683734528"
         },
@@ -1723,7 +1758,7 @@
           "goal_name_match": "Caleb Scott",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:10+00:00",
+          "goal_updated_at": "2026-07-03T22:25:59+00:00",
           "submissions": [
             {
               "channel_id": "1514694018024472628",
@@ -1746,7 +1781,7 @@
           "goal_name_match": "Daniel Demmin",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:05+00:00",
+          "goal_updated_at": "2026-07-03T22:25:55+00:00",
           "submissions": [
             {
               "channel_id": "1514693934066962462",
@@ -1813,7 +1848,7 @@
           "goal_name_match": "Lindsey Nichols",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:07+00:00",
+          "goal_updated_at": "2026-07-03T22:25:57+00:00",
           "submissions": [
             {
               "channel_id": "1514693972709085321",
@@ -1865,7 +1900,7 @@
           "goal_name_match": "Cameron Pilgrim",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:09+00:00",
+          "goal_updated_at": "2026-07-03T22:25:59+00:00",
           "submissions": [
             {
               "channel_id": "1514694006679011359",
@@ -1913,7 +1948,7 @@
           "goal_name_match": "Carter Horton",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T21:34:11+00:00",
+          "goal_updated_at": "2026-07-03T22:26:01+00:00",
           "submissions": [
             {
               "channel_id": "1514832052304740413",
@@ -2005,6 +2040,21 @@
               "source_type": "github_actions_scan",
               "week": "2026-W26",
               "words": 1746
+            },
+            {
+              "channel_id": "1514832052304740413",
+              "created_at": "2026-07-03T22:26:01+00:00",
+              "discord_created_at": "2026-07-03T22:20:18.417000+00:00",
+              "file_hashes": [
+                "f3c5c4a3c7fff2df82e85b01a63505380ce134b3d155a721f3a6bbf1b0b6f1ed"
+              ],
+              "message_id": "1522728722673832099",
+              "reply_message_id": "1522730163652263976",
+              "reply_sent_at": "2026-07-03T22:26:02+00:00",
+              "source": "Chapter_4.docx (2,688)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W27",
+              "words": 2688
             }
           ],
           "user_id": "771472460922093618"

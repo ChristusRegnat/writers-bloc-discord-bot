@@ -579,6 +579,15 @@
           "source": "Chapter_4.docx (2,688)",
           "words": 2688,
           "writer": "Carter Horton"
+        },
+        "1522738660796268574": {
+          "channel_id": "1514693962777100369",
+          "created_at": "2026-07-03T23:29:30+00:00",
+          "message_id": "1522738660796268574",
+          "reply_message_id": "1522746136476123267",
+          "source": "Zanans_Peace_progress.docx (991)",
+          "words": 991,
+          "writer": "Joshua S. Smith"
         }
       },
       "duplicate_messages": {},
@@ -671,7 +680,8 @@
         "1520185706201219073": true,
         "1521659719251394712": true,
         "1522722227617923162": true,
-        "1522728722673832099": true
+        "1522728722673832099": true,
+        "1522738660796268574": true
       },
       "settings": {
         "default_weekly_goal": 1500
@@ -687,7 +697,7 @@
           "goal_name_match": "Mariam and Chief",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:58+00:00",
+          "goal_updated_at": "2026-07-03T23:29:32+00:00",
           "submissions": [
             {
               "channel_id": "1514693995412852886",
@@ -1422,7 +1432,7 @@
           "goal_name_match": "Conner Hale",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:54+00:00",
+          "goal_updated_at": "2026-07-03T23:29:27+00:00",
           "submissions": [
             {
               "channel_id": "1514693923103047803",
@@ -1504,7 +1514,7 @@
           "goal_name_match": "Lola",
           "goal_set_by": null,
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:26:03+00:00",
+          "goal_updated_at": "2026-07-03T23:29:36+00:00",
           "submissions": [
             {
               "channel_id": "1516155328671125866",
@@ -1537,7 +1547,7 @@
           "goal_name_match": "Isaiah Gibbins",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:56+00:00",
+          "goal_updated_at": "2026-07-03T23:29:29+00:00",
           "submissions": [
             {
               "channel_id": "1514693951330717832",
@@ -1570,8 +1580,24 @@
           "goal_name_match": "Joshua S. Smith",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:57+00:00",
-          "submissions": [],
+          "goal_updated_at": "2026-07-03T23:29:29+00:00",
+          "submissions": [
+            {
+              "channel_id": "1514693962777100369",
+              "created_at": "2026-07-03T23:29:30+00:00",
+              "discord_created_at": "2026-07-03T22:59:47.850000+00:00",
+              "file_hashes": [
+                "357e3c9b6c7b29808fca0a187e5c3ce4ebe8eb880c9ec3f44e288dae810c8d36"
+              ],
+              "message_id": "1522738660796268574",
+              "reply_message_id": "1522746136476123267",
+              "reply_sent_at": "2026-07-03T23:29:30+00:00",
+              "source": "Zanans_Peace_progress.docx (991)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W27",
+              "words": 991
+            }
+          ],
           "user_id": "1320771261952950302"
         },
         "1373857887205720187": {
@@ -1583,7 +1609,7 @@
           "goal_name_match": "Elijah Blythe",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:56+00:00",
+          "goal_updated_at": "2026-07-03T23:29:28+00:00",
           "submissions": [
             {
               "channel_id": "1514693942510223547",
@@ -1713,7 +1739,7 @@
           "goal_name_match": "Lyn Evans",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:58+00:00",
+          "goal_updated_at": "2026-07-03T23:29:31+00:00",
           "submissions": [],
           "user_id": "1512878497683734528"
         },
@@ -1758,7 +1784,7 @@
           "goal_name_match": "Caleb Scott",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:59+00:00",
+          "goal_updated_at": "2026-07-03T23:29:34+00:00",
           "submissions": [
             {
               "channel_id": "1514694018024472628",
@@ -1781,7 +1807,7 @@
           "goal_name_match": "Daniel Demmin",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:55+00:00",
+          "goal_updated_at": "2026-07-03T23:29:28+00:00",
           "submissions": [
             {
               "channel_id": "1514693934066962462",
@@ -1848,7 +1874,7 @@
           "goal_name_match": "Lindsey Nichols",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:57+00:00",
+          "goal_updated_at": "2026-07-03T23:29:31+00:00",
           "submissions": [
             {
               "channel_id": "1514693972709085321",
@@ -1900,7 +1926,7 @@
           "goal_name_match": "Cameron Pilgrim",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:25:59+00:00",
+          "goal_updated_at": "2026-07-03T23:29:33+00:00",
           "submissions": [
             {
               "channel_id": "1514694006679011359",
@@ -1948,7 +1974,7 @@
           "goal_name_match": "Carter Horton",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-03T22:26:01+00:00",
+          "goal_updated_at": "2026-07-03T23:29:35+00:00",
           "submissions": [
             {
               "channel_id": "1514832052304740413",

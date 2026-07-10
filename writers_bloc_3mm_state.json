@@ -588,6 +588,24 @@
           "source": "Zanans_Peace_progress.docx (991)",
           "words": 991,
           "writer": "Joshua S. Smith"
+        },
+        "1525262364218363974": {
+          "channel_id": "1514693934066962462",
+          "created_at": "2026-07-10T22:18:50+00:00",
+          "message_id": "1525262364218363974",
+          "reply_message_id": "1525265068109987931",
+          "source": "The_King_in_Silver_Gaius_Saves_Avery.docx (4,326)",
+          "words": 4326,
+          "writer": "Daniel Demmin"
+        },
+        "1525264382508929177": {
+          "channel_id": "1514693942510223547",
+          "created_at": "2026-07-10T22:18:52+00:00",
+          "message_id": "1525264382508929177",
+          "reply_message_id": "1525265075760402502",
+          "source": "Sei_Colpi_-_Day_in_the_Life_of_John_Wallace.docx (1,083)",
+          "words": 1083,
+          "writer": "Elijah Blythe"
         }
       },
       "duplicate_messages": {},
@@ -681,7 +699,9 @@
         "1521659719251394712": true,
         "1522722227617923162": true,
         "1522728722673832099": true,
-        "1522738660796268574": true
+        "1522738660796268574": true,
+        "1525262364218363974": true,
+        "1525264382508929177": true
       },
       "settings": {
         "default_weekly_goal": 1500
@@ -697,7 +717,7 @@
           "goal_name_match": "Mariam and Chief",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:46+00:00",
+          "goal_updated_at": "2026-07-10T22:18:55+00:00",
           "submissions": [
             {
               "channel_id": "1514693995412852886",
@@ -1432,7 +1452,7 @@
           "goal_name_match": "Conner Hale",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:42+00:00",
+          "goal_updated_at": "2026-07-10T22:18:49+00:00",
           "submissions": [
             {
               "channel_id": "1514693923103047803",
@@ -1514,7 +1534,7 @@
           "goal_name_match": "Lola",
           "goal_set_by": null,
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:50+00:00",
+          "goal_updated_at": "2026-07-10T22:18:59+00:00",
           "submissions": [
             {
               "channel_id": "1516155328671125866",
@@ -1547,7 +1567,7 @@
           "goal_name_match": "Isaiah Gibbins",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:44+00:00",
+          "goal_updated_at": "2026-07-10T22:18:53+00:00",
           "submissions": [
             {
               "channel_id": "1514693951330717832",
@@ -1580,7 +1600,7 @@
           "goal_name_match": "Joshua S. Smith",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:44+00:00",
+          "goal_updated_at": "2026-07-10T22:18:53+00:00",
           "submissions": [
             {
               "channel_id": "1514693962777100369",
@@ -1609,7 +1629,7 @@
           "goal_name_match": "Elijah Blythe",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:43+00:00",
+          "goal_updated_at": "2026-07-10T22:18:51+00:00",
           "submissions": [
             {
               "channel_id": "1514693942510223547",
@@ -1682,6 +1702,21 @@
               "source_type": "github_actions_scan",
               "week": "2026-W26",
               "words": 489
+            },
+            {
+              "channel_id": "1514693942510223547",
+              "created_at": "2026-07-10T22:18:51+00:00",
+              "discord_created_at": "2026-07-10T22:16:06.832000+00:00",
+              "file_hashes": [
+                "de01499a8dd56eb0be934c8812b3b8c21f52cf5c3335e53034f97d49565e488f"
+              ],
+              "message_id": "1525264382508929177",
+              "reply_message_id": "1525265075760402502",
+              "reply_sent_at": "2026-07-10T22:18:52+00:00",
+              "source": "Sei_Colpi_-_Day_in_the_Life_of_John_Wallace.docx (1,083)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W28",
+              "words": 1083
             }
           ],
           "user_id": "1373857887205720187"
@@ -1739,7 +1774,7 @@
           "goal_name_match": "Lyn Evans",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:45+00:00",
+          "goal_updated_at": "2026-07-10T22:18:55+00:00",
           "submissions": [],
           "user_id": "1512878497683734528"
         },
@@ -1784,7 +1819,7 @@
           "goal_name_match": "Caleb Scott",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:47+00:00",
+          "goal_updated_at": "2026-07-10T22:18:56+00:00",
           "submissions": [
             {
               "channel_id": "1514694018024472628",
@@ -1807,7 +1842,7 @@
           "goal_name_match": "Daniel Demmin",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:43+00:00",
+          "goal_updated_at": "2026-07-10T22:18:49+00:00",
           "submissions": [
             {
               "channel_id": "1514693934066962462",
@@ -1861,6 +1896,21 @@
               "source_type": "github_actions_scan",
               "week": "2026-W26",
               "words": 4693
+            },
+            {
+              "channel_id": "1514693934066962462",
+              "created_at": "2026-07-10T22:18:50+00:00",
+              "discord_created_at": "2026-07-10T22:08:05.634000+00:00",
+              "file_hashes": [
+                "9849c3e9f20ec4d37d1f2cdb4ba83b4b99bd7f89847e5c28eb04f514ed75be3d"
+              ],
+              "message_id": "1525262364218363974",
+              "reply_message_id": "1525265068109987931",
+              "reply_sent_at": "2026-07-10T22:18:50+00:00",
+              "source": "The_King_in_Silver_Gaius_Saves_Avery.docx (4,326)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W28",
+              "words": 4326
             }
           ],
           "user_id": "477534686982438914"
@@ -1874,7 +1924,7 @@
           "goal_name_match": "Lindsey Nichols",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:45+00:00",
+          "goal_updated_at": "2026-07-10T22:18:54+00:00",
           "submissions": [
             {
               "channel_id": "1514693972709085321",
@@ -1926,7 +1976,7 @@
           "goal_name_match": "Cameron Pilgrim",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:47+00:00",
+          "goal_updated_at": "2026-07-10T22:18:56+00:00",
           "submissions": [
             {
               "channel_id": "1514694006679011359",
@@ -1974,7 +2024,7 @@
           "goal_name_match": "Carter Horton",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-07-10T20:44:49+00:00",
+          "goal_updated_at": "2026-07-10T22:18:58+00:00",
           "submissions": [
             {
               "channel_id": "1514832052304740413",

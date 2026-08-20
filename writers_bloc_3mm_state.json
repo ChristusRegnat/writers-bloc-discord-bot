@@ -750,6 +750,15 @@
           "source": "Turmoil_Ch._19__Indazzio.docx (1,917)",
           "words": 1917,
           "writer": "Mariam (Luna Eclipse) and Chief"
+        },
+        "1539802591641469050": {
+          "channel_id": "1514693995412852886",
+          "created_at": "2026-08-20T01:53:39+00:00",
+          "message_id": "1539802591641469050",
+          "reply_message_id": "1539814643088883783",
+          "source": "Turmoil_Ch._20__Escape.docx (2,002)",
+          "words": 2002,
+          "writer": "Mariam (Luna Eclipse) and Chief"
         }
       },
       "duplicate_messages": {},
@@ -863,7 +872,8 @@
         "1538769618225864714": true,
         "1538855999337926676": true,
         "1539145329469825085": true,
-        "1539500048742621214": true
+        "1539500048742621214": true,
+        "1539802591641469050": true
       },
       "settings": {
         "default_weekly_goal": 1500
@@ -879,7 +889,7 @@
           "goal_name_match": "Mariam and Chief",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:30+00:00",
+          "goal_updated_at": "2026-08-20T01:53:38+00:00",
           "submissions": [
             {
               "channel_id": "1514693995412852886",
@@ -1691,6 +1701,21 @@
               "source_type": "github_actions_scan",
               "week": "2026-W34",
               "words": 1917
+            },
+            {
+              "channel_id": "1514693995412852886",
+              "created_at": "2026-08-20T01:53:39+00:00",
+              "discord_created_at": "2026-08-20T01:05:45.996000+00:00",
+              "file_hashes": [
+                "91e90002f402bcccbc332a9756163884b415ae4f4c693494d196843ca7615191"
+              ],
+              "message_id": "1539802591641469050",
+              "reply_message_id": "1539814643088883783",
+              "reply_sent_at": "2026-08-20T01:53:39+00:00",
+              "source": "Turmoil_Ch._20__Escape.docx (2,002)",
+              "source_type": "github_actions_scan",
+              "week": "2026-W34",
+              "words": 2002
             }
           ],
           "user_id": "1082363839934378064"
@@ -1704,7 +1729,7 @@
           "goal_name_match": "Conner Hale",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:26+00:00",
+          "goal_updated_at": "2026-08-20T01:53:33+00:00",
           "submissions": [
             {
               "channel_id": "1514693923103047803",
@@ -1816,7 +1841,7 @@
           "goal_name_match": "Lola",
           "goal_set_by": null,
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:35+00:00",
+          "goal_updated_at": "2026-08-20T01:53:44+00:00",
           "submissions": [
             {
               "channel_id": "1516155328671125866",
@@ -1849,7 +1874,7 @@
           "goal_name_match": "Isaiah Gibbins",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:27+00:00",
+          "goal_updated_at": "2026-08-20T01:53:35+00:00",
           "submissions": [
             {
               "channel_id": "1514693951330717832",
@@ -1882,7 +1907,7 @@
           "goal_name_match": "Joshua S. Smith",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:28+00:00",
+          "goal_updated_at": "2026-08-20T01:53:36+00:00",
           "submissions": [
             {
               "channel_id": "1514693962777100369",
@@ -1911,7 +1936,7 @@
           "goal_name_match": "Elijah Blythe",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:27+00:00",
+          "goal_updated_at": "2026-08-20T01:53:34+00:00",
           "submissions": [
             {
               "channel_id": "1514693942510223547",
@@ -2086,7 +2111,7 @@
           "goal_name_match": "Lyn Evans",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:30+00:00",
+          "goal_updated_at": "2026-08-20T01:53:37+00:00",
           "submissions": [],
           "user_id": "1512878497683734528"
         },
@@ -2131,7 +2156,7 @@
           "goal_name_match": "Caleb Scott",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:32+00:00",
+          "goal_updated_at": "2026-08-20T01:53:41+00:00",
           "submissions": [
             {
               "channel_id": "1514694018024472628",
@@ -2154,7 +2179,7 @@
           "goal_name_match": "Daniel Demmin",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:26+00:00",
+          "goal_updated_at": "2026-08-20T01:53:33+00:00",
           "submissions": [
             {
               "channel_id": "1514693934066962462",
@@ -2326,7 +2351,7 @@
           "goal_name_match": "Lindsey Nichols",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:29+00:00",
+          "goal_updated_at": "2026-08-20T01:53:36+00:00",
           "submissions": [
             {
               "channel_id": "1514693972709085321",
@@ -2378,7 +2403,7 @@
           "goal_name_match": "Cameron Pilgrim",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:31+00:00",
+          "goal_updated_at": "2026-08-20T01:53:40+00:00",
           "submissions": [
             {
               "channel_id": "1514694006679011359",
@@ -2426,7 +2451,7 @@
           "goal_name_match": "Carter Horton",
           "goal_set_by": "477534686982438914",
           "goal_source": "github_actions_goal_file",
-          "goal_updated_at": "2026-08-19T23:40:34+00:00",
+          "goal_updated_at": "2026-08-20T01:53:43+00:00",
           "submissions": [
             {
               "channel_id": "1514832052304740413",
